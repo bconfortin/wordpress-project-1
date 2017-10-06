@@ -1,0 +1,4056 @@
+@charset "UTF-8";
+/* [ CTA ] */
+/* [ Bot├Áes ] */
+/* [ Green Bootstrap Button ] */
+.btn-green {
+  color: #ffffff;
+  background-color: #84c225;
+  border-color: #84c225;
+  font-weight: 700;
+}
+
+.btn-green:focus,
+.btn-green.focus {
+  color: #ffffff;
+  background-color: #78b41b;
+  border-color: #78b41b;
+}
+
+.btn-green:hover {
+  color: #ffffff;
+  background-color: #78b41b;
+  border-color: #78b41b;
+}
+
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-green {
+  color: #ffffff;
+  background-color: #78b41b;
+  border-color: #78b41b;
+}
+
+.btn-green:active:hover,
+.btn-green.active:hover,
+.open > .dropdown-toggle.btn-green:hover,
+.btn-green:active:focus,
+.btn-green.active:focus,
+.open > .dropdown-toggle.btn-green:focus,
+.btn-green:active.focus,
+.btn-green.active.focus,
+.open > .dropdown-toggle.btn-green.focus {
+  color: #ffffff;
+  background-color: #78b41b;
+  border-color: #78b41b;
+}
+
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-green {
+  background-image: none;
+}
+
+.btn-green.disabled,
+.btn-green[disabled],
+fieldset[disabled] .btn-green,
+.btn-green.disabled:hover,
+.btn-green[disabled]:hover,
+fieldset[disabled] .btn-green:hover,
+.btn-green.disabled:focus,
+.btn-green[disabled]:focus,
+fieldset[disabled] .btn-green:focus,
+.btn-green.disabled.focus,
+.btn-green[disabled].focus,
+fieldset[disabled] .btn-green.focus,
+.btn-green.disabled:active,
+.btn-green[disabled]:active,
+fieldset[disabled] .btn-green:active,
+.btn-green.disabled.active,
+.btn-green[disabled].active,
+fieldset[disabled] .btn-green.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-green .badge {
+  color: #84c225;
+  background-color: #ffffff;
+}
+
+/* [ Green Ghost Bootstrap Button ] */
+.btn-green.ghost {
+  color: #84c225;
+  background-color: #ffffff;
+  border-color: #84c225;
+}
+
+.btn-green.ghost:focus,
+.btn-green.ghost.focus {
+  color: #78b41b;
+  background-color: #ffffff;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost:hover {
+  color: #78b41b;
+  background-color: #ffffff;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost:active,
+.btn-green.ghost.active,
+.open > .dropdown-toggle.btn-green.ghost {
+  color: #78b41b;
+  background-color: #ffffff;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost:active:hover,
+.btn-green.ghost.active:hover,
+.open > .dropdown-toggle.btn-green.ghost:hover,
+.btn-green.ghost:active:focus,
+.btn-green.ghost.active:focus,
+.open > .dropdown-toggle.btn-green.ghost:focus,
+.btn-green.ghost:active.focus,
+.btn-green.ghost.active.focus,
+.open > .dropdown-toggle.btn-green.ghost.focus {
+  color: #78b41b;
+  background-color: #ffffff;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost:active,
+.btn-green.ghost.active,
+.open > .dropdown-toggle.btn-green.ghost {
+  background-image: none;
+}
+
+.btn-green.ghost.disabled,
+.btn-green.ghost[disabled],
+fieldset[disabled] .btn-green.ghost,
+.btn-green.ghost.disabled:hover,
+.btn-green.ghost[disabled]:hover,
+fieldset[disabled] .btn-green.ghost:hover,
+.btn-green.ghost.disabled:focus,
+.btn-green.ghost[disabled]:focus,
+fieldset[disabled] .btn-green.ghost:focus,
+.btn-green.ghost.disabled.focus,
+.btn-green.ghost[disabled].focus,
+fieldset[disabled] .btn-green.ghost.focus,
+.btn-green.ghost.disabled:active,
+.btn-green.ghost[disabled]:active,
+fieldset[disabled] .btn-green.ghost:active,
+.btn-green.ghost.disabled.active,
+.btn-green.ghost[disabled].active,
+fieldset[disabled] .btn-green.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-green.ghost .badge {
+  color: #84c225;
+  background-color: #ffffff;
+}
+
+/* [ Green Ghost Transparent Bootstrap Button ] */
+.btn-green.ghost.transparent {
+  color: #84c225;
+  background-color: transparent;
+  border-color: #84c225;
+}
+
+.btn-green.ghost.transparent:focus,
+.btn-green.ghost.transparent.focus {
+  color: #78b41b;
+  background-color: transparent;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost.transparent:hover {
+  color: #78b41b;
+  background-color: transparent;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost.transparent:active,
+.btn-green.ghost.transparent.active,
+.open > .dropdown-toggle.btn-green.ghost.transparent {
+  color: #78b41b;
+  background-color: transparent;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost.transparent:active:hover,
+.btn-green.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-green.ghost.transparent:hover,
+.btn-green.ghost.transparent:active:focus,
+.btn-green.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-green.ghost.transparent:focus,
+.btn-green.ghost.transparent:active.focus,
+.btn-green.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-green.ghost.transparent.focus {
+  color: #78b41b;
+  background-color: transparent;
+  border-color: #78b41b;
+}
+
+.btn-green.ghost.transparent:active,
+.btn-green.ghost.transparent.active,
+.open > .dropdown-toggle.btn-green.ghost.transparent {
+  background-image: none;
+}
+
+.btn-green.ghost.transparent.disabled,
+.btn-green.ghost.transparent[disabled],
+fieldset[disabled] .btn-green.ghost.transparent,
+.btn-green.ghost.transparent.disabled:hover,
+.btn-green.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-green.ghost.transparent:hover,
+.btn-green.ghost.transparent.disabled:focus,
+.btn-green.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-green.ghost.transparent:focus,
+.btn-green.ghost.transparent.disabled.focus,
+.btn-green.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-green.ghost.transparent.focus,
+.btn-green.ghost.transparent.disabled:active,
+.btn-green.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-green.ghost.transparent:active,
+.btn-green.ghost.transparent.disabled.active,
+.btn-green.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-green.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-green.ghost.transparent .badge {
+  color: #84c225;
+  background-color: transparent;
+}
+
+/* [ Blue Bootstrap Button ] */
+.btn-blue {
+  color: #ffffff;
+  background-color: #7bb8c9;
+  border-color: #7bb8c9;
+  font-weight: 700;
+}
+
+.btn-blue:focus,
+.btn-blue.focus {
+  color: #ffffff;
+  background-color: #4a9fb7;
+  border-color: #4a9fb7;
+}
+
+.btn-blue:hover {
+  color: #ffffff;
+  background-color: #4a9fb7;
+  border-color: #4a9fb7;
+}
+
+.btn-blue:active,
+.btn-blue.active,
+.open > .dropdown-toggle.btn-blue {
+  color: #ffffff;
+  background-color: #4a9fb7;
+  border-color: #4a9fb7;
+}
+
+.btn-blue:active:hover,
+.btn-blue.active:hover,
+.open > .dropdown-toggle.btn-blue:hover,
+.btn-blue:active:focus,
+.btn-blue.active:focus,
+.open > .dropdown-toggle.btn-blue:focus,
+.btn-blue:active.focus,
+.btn-blue.active.focus,
+.open > .dropdown-toggle.btn-blue.focus {
+  color: #ffffff;
+  background-color: #4a9fb7;
+  border-color: #4a9fb7;
+}
+
+.btn-blue:active,
+.btn-blue.active,
+.open > .dropdown-toggle.btn-blue {
+  background-image: none;
+}
+
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled.focus,
+.btn-blue[disabled].focus,
+fieldset[disabled] .btn-blue.focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-blue.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-blue .badge {
+  color: #7bb8c9;
+  background-color: #ffffff;
+}
+
+/* [ Blue Ghost Bootstrap Button ] */
+.btn-blue.ghost {
+  color: #7bb8c9;
+  background-color: #ffffff;
+  border-color: #7bb8c9;
+}
+
+.btn-blue.ghost:focus,
+.btn-blue.ghost.focus {
+  color: #4a9fb7;
+  background-color: #ffffff;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost:hover {
+  color: #4a9fb7;
+  background-color: #fff;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost:active,
+.btn-blue.ghost.active,
+.open > .dropdown-toggle.btn-blue.ghost {
+  color: #4a9fb7;
+  background-color: #fff;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost:active:hover,
+.btn-blue.ghost.active:hover,
+.open > .dropdown-toggle.btn-blue.ghost:hover,
+.btn-blue.ghost:active:focus,
+.btn-blue.ghost.active:focus,
+.open > .dropdown-toggle.btn-blue.ghost:focus,
+.btn-blue.ghost:active.focus,
+.btn-blue.ghost.active.focus,
+.open > .dropdown-toggle.btn-blue.ghost.focus {
+  color: #4a9fb7;
+  background-color: #fff;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost:active,
+.btn-blue.ghost.active,
+.open > .dropdown-toggle.btn-blue.ghost {
+  background-image: none;
+}
+
+.btn-blue.ghost.disabled,
+.btn-blue.ghost[disabled],
+fieldset[disabled] .btn-blue.ghost,
+.btn-blue.ghost.disabled:hover,
+.btn-blue.ghost[disabled]:hover,
+fieldset[disabled] .btn-blue.ghost:hover,
+.btn-blue.ghost.disabled:focus,
+.btn-blue.ghost[disabled]:focus,
+fieldset[disabled] .btn-blue.ghost:focus,
+.btn-blue.ghost.disabled.focus,
+.btn-blue.ghost[disabled].focus,
+fieldset[disabled] .btn-blue.ghost.focus,
+.btn-blue.ghost.disabled:active,
+.btn-blue.ghost[disabled]:active,
+fieldset[disabled] .btn-blue.ghost:active,
+.btn-blue.ghost.disabled.active,
+.btn-blue.ghost[disabled].active,
+fieldset[disabled] .btn-blue.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-blue.ghost .badge {
+  color: #7bb8c9;
+  background-color: #ffffff;
+}
+
+/* [ Blue Ghost Transparent Bootstrap Button ] */
+.btn-blue.ghost.transparent {
+  color: #7bb8c9;
+  background-color: transparent;
+  border-color: #7bb8c9;
+}
+
+.btn-blue.ghost.transparent:focus,
+.btn-blue.ghost.transparent.focus {
+  color: #4a9fb7;
+  background-color: transparent;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost.transparent:hover {
+  color: #4a9fb7;
+  background-color: transparent;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost.transparent:active,
+.btn-blue.ghost.transparent.active,
+.open > .dropdown-toggle.btn-blue.ghost.transparent {
+  color: #4a9fb7;
+  background-color: transparent;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost.transparent:active:hover,
+.btn-blue.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-blue.ghost.transparent:hover,
+.btn-blue.ghost.transparent:active:focus,
+.btn-blue.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-blue.ghost.transparent:focus,
+.btn-blue.ghost.transparent:active.focus,
+.btn-blue.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-blue.ghost.transparent.focus {
+  color: #4a9fb7;
+  background-color: transparent;
+  border-color: #4a9fb7;
+}
+
+.btn-blue.ghost.transparent:active,
+.btn-blue.ghost.transparent.active,
+.open > .dropdown-toggle.btn-blue.ghost.transparent {
+  background-image: none;
+}
+
+.btn-blue.ghost.transparent.disabled,
+.btn-blue.ghost.transparent[disabled],
+fieldset[disabled] .btn-blue.ghost.transparent,
+.btn-blue.ghost.transparent.disabled:hover,
+.btn-blue.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-blue.ghost.transparent:hover,
+.btn-blue.ghost.transparent.disabled:focus,
+.btn-blue.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-blue.ghost.transparent:focus,
+.btn-blue.ghost.transparent.disabled.focus,
+.btn-blue.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-blue.ghost.transparent.focus,
+.btn-blue.ghost.transparent.disabled:active,
+.btn-blue.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-blue.ghost.transparent:active,
+.btn-blue.ghost.transparent.disabled.active,
+.btn-blue.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-blue.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-blue.ghost.transparent .badge {
+  color: #7bb8c9;
+  background-color: transparent;
+}
+
+/**/
+/* [ Primary Bootstrap Button ] */
+.btn-primario {
+  color: #ffffff;
+  background-color: #ffaa00;
+  border-color: #ffaa00;
+  font-weight: 700;
+}
+
+.btn-primario:focus,
+.btn-primario.focus {
+  color: #ffffff;
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
+.btn-primario:hover {
+  color: #ffffff;
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
+.btn-primario:active,
+.btn-primario.active,
+.open > .dropdown-toggle.btn-primario {
+  color: #ffffff;
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
+.btn-primario:active:hover,
+.btn-primario.active:hover,
+.open > .dropdown-toggle.btn-primario:hover,
+.btn-primario:active:focus,
+.btn-primario.active:focus,
+.open > .dropdown-toggle.btn-primario:focus,
+.btn-primario:active.focus,
+.btn-primario.active.focus,
+.open > .dropdown-toggle.btn-primario.focus {
+  color: #ffffff;
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
+.btn-primario:active,
+.btn-primario.active,
+.open > .dropdown-toggle.btn-primario {
+  background-image: none;
+}
+
+.btn-primario.disabled,
+.btn-primario[disabled],
+fieldset[disabled] .btn-primario,
+.btn-primario.disabled:hover,
+.btn-primario[disabled]:hover,
+fieldset[disabled] .btn-primario:hover,
+.btn-primario.disabled:focus,
+.btn-primario[disabled]:focus,
+fieldset[disabled] .btn-primario:focus,
+.btn-primario.disabled.focus,
+.btn-primario[disabled].focus,
+fieldset[disabled] .btn-primario.focus,
+.btn-primario.disabled:active,
+.btn-primario[disabled]:active,
+fieldset[disabled] .btn-primario:active,
+.btn-primario.disabled.active,
+.btn-primario[disabled].active,
+fieldset[disabled] .btn-primario.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-primario .badge {
+  color: #ffaa00;
+  background-color: #ffffff;
+}
+
+/* [ Primary Ghost Bootstrap Button ] */
+.btn-primario.ghost {
+  color: #ffaa00;
+  background-color: #ffffff;
+  border-color: #ffaa00;
+}
+
+.btn-primario.ghost:focus,
+.btn-primario.ghost.focus {
+  color: #ffbb33;
+  background-color: #ffffff;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost:hover {
+  color: #ffbb33;
+  background-color: #ffffff;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost:active,
+.btn-primario.ghost.active,
+.open > .dropdown-toggle.btn-primario.ghost {
+  color: #ffbb33;
+  background-color: #ffffff;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost:active:hover,
+.btn-primario.ghost.active:hover,
+.open > .dropdown-toggle.btn-primario.ghost:hover,
+.btn-primario.ghost:active:focus,
+.btn-primario.ghost.active:focus,
+.open > .dropdown-toggle.btn-primario.ghost:focus,
+.btn-primario.ghost:active.focus,
+.btn-primario.ghost.active.focus,
+.open > .dropdown-toggle.btn-primario.ghost.focus {
+  color: #ffbb33;
+  background-color: #ffffff;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost:active,
+.btn-primario.ghost.active,
+.open > .dropdown-toggle.btn-primario.ghost {
+  background-image: none;
+}
+
+.btn-primario.ghost.disabled,
+.btn-primario.ghost[disabled],
+fieldset[disabled] .btn-primario.ghost,
+.btn-primario.ghost.disabled:hover,
+.btn-primario.ghost[disabled]:hover,
+fieldset[disabled] .btn-primario.ghost:hover,
+.btn-primario.ghost.disabled:focus,
+.btn-primario.ghost[disabled]:focus,
+fieldset[disabled] .btn-primario.ghost:focus,
+.btn-primario.ghost.disabled.focus,
+.btn-primario.ghost[disabled].focus,
+fieldset[disabled] .btn-primario.ghost.focus,
+.btn-primario.ghost.disabled:active,
+.btn-primario.ghost[disabled]:active,
+fieldset[disabled] .btn-primario.ghost:active,
+.btn-primario.ghost.disabled.active,
+.btn-primario.ghost[disabled].active,
+fieldset[disabled] .btn-primario.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-primario.ghost .badge {
+  color: #ffaa00;
+  background-color: #ffffff;
+}
+
+/* [ Primary Ghost Transparent Bootstrap Button ] */
+.btn-primario.ghost.transparent {
+  color: #ffaa00;
+  background-color: transparent;
+  border-color: #ffaa00;
+}
+
+.btn-primario.ghost.transparent:focus,
+.btn-primario.ghost.transparent.focus {
+  color: #ffbb33;
+  background-color: transparent;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost.transparent:hover {
+  color: #ffbb33;
+  background-color: transparent;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost.transparent:active,
+.btn-primario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-primario.ghost.transparent {
+  color: #ffbb33;
+  background-color: transparent;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost.transparent:active:hover,
+.btn-primario.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-primario.ghost.transparent:hover,
+.btn-primario.ghost.transparent:active:focus,
+.btn-primario.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-primario.ghost.transparent:focus,
+.btn-primario.ghost.transparent:active.focus,
+.btn-primario.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-primario.ghost.transparent.focus {
+  color: #ffbb33;
+  background-color: transparent;
+  border-color: #ffbb33;
+}
+
+.btn-primario.ghost.transparent:active,
+.btn-primario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-primario.ghost.transparent {
+  background-image: none;
+}
+
+.btn-primario.ghost.transparent.disabled,
+.btn-primario.ghost.transparent[disabled],
+fieldset[disabled] .btn-primario.ghost.transparent,
+.btn-primario.ghost.transparent.disabled:hover,
+.btn-primario.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-primario.ghost.transparent:hover,
+.btn-primario.ghost.transparent.disabled:focus,
+.btn-primario.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-primario.ghost.transparent:focus,
+.btn-primario.ghost.transparent.disabled.focus,
+.btn-primario.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-primario.ghost.transparent.focus,
+.btn-primario.ghost.transparent.disabled:active,
+.btn-primario.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-primario.ghost.transparent:active,
+.btn-primario.ghost.transparent.disabled.active,
+.btn-primario.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-primario.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-primario.ghost.transparent .badge {
+  color: #ffaa00;
+  background-color: transparent;
+}
+
+/* [ Secondary Bootstrap Button ] */
+.btn-secundario {
+  color: #ffffff;
+  background-color: #2a3293;
+  border-color: #2a3293;
+  font-weight: 700;
+}
+
+.btn-secundario:focus,
+.btn-secundario.focus {
+  color: #ffffff;
+  background-color: #353fbb;
+  border-color: #353fbb;
+}
+
+.btn-secundario:hover {
+  color: #ffffff;
+  background-color: #353fbb;
+  border-color: #353fbb;
+}
+
+.btn-secundario:active,
+.btn-secundario.active,
+.open > .dropdown-toggle.btn-secundario {
+  color: #ffffff;
+  background-color: #353fbb;
+  border-color: #353fbb;
+}
+
+.btn-secundario:active:hover,
+.btn-secundario.active:hover,
+.open > .dropdown-toggle.btn-secundario:hover,
+.btn-secundario:active:focus,
+.btn-secundario.active:focus,
+.open > .dropdown-toggle.btn-secundario:focus,
+.btn-secundario:active.focus,
+.btn-secundario.active.focus,
+.open > .dropdown-toggle.btn-secundario.focus {
+  color: #ffffff;
+  background-color: #353fbb;
+  border-color: #353fbb;
+}
+
+.btn-secundario:active,
+.btn-secundario.active,
+.open > .dropdown-toggle.btn-secundario {
+  background-image: none;
+}
+
+.btn-secundario.disabled,
+.btn-secundario[disabled],
+fieldset[disabled] .btn-secundario,
+.btn-secundario.disabled:hover,
+.btn-secundario[disabled]:hover,
+fieldset[disabled] .btn-secundario:hover,
+.btn-secundario.disabled:focus,
+.btn-secundario[disabled]:focus,
+fieldset[disabled] .btn-secundario:focus,
+.btn-secundario.disabled.focus,
+.btn-secundario[disabled].focus,
+fieldset[disabled] .btn-secundario.focus,
+.btn-secundario.disabled:active,
+.btn-secundario[disabled]:active,
+fieldset[disabled] .btn-secundario:active,
+.btn-secundario.disabled.active,
+.btn-secundario[disabled].active,
+fieldset[disabled] .btn-secundario.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-secundario .badge {
+  color: #2a3293;
+  background-color: #ffffff;
+}
+
+/* [ Secondary Ghost Bootstrap Button ] */
+.btn-secundario.ghost {
+  color: #2a3293;
+  background-color: #ffffff;
+  border-color: #2a3293;
+}
+
+.btn-secundario.ghost:focus,
+.btn-secundario.ghost.focus {
+  color: #353fbb;
+  background-color: #ffffff;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost:hover {
+  color: #353fbb;
+  background-color: #ffffff;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost:active,
+.btn-secundario.ghost.active,
+.open > .dropdown-toggle.btn-secundario.ghost {
+  color: #353fbb;
+  background-color: #ffffff;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost:active:hover,
+.btn-secundario.ghost.active:hover,
+.open > .dropdown-toggle.btn-secundario.ghost:hover,
+.btn-secundario.ghost:active:focus,
+.btn-secundario.ghost.active:focus,
+.open > .dropdown-toggle.btn-secundario.ghost:focus,
+.btn-secundario.ghost:active.focus,
+.btn-secundario.ghost.active.focus,
+.open > .dropdown-toggle.btn-secundario.ghost.focus {
+  color: #353fbb;
+  background-color: #ffffff;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost:active,
+.btn-secundario.ghost.active,
+.open > .dropdown-toggle.btn-secundario.ghost {
+  background-image: none;
+}
+
+.btn-secundario.ghost.disabled,
+.btn-secundario.ghost[disabled],
+fieldset[disabled] .btn-secundario.ghost,
+.btn-secundario.ghost.disabled:hover,
+.btn-secundario.ghost[disabled]:hover,
+fieldset[disabled] .btn-secundario.ghost:hover,
+.btn-secundario.ghost.disabled:focus,
+.btn-secundario.ghost[disabled]:focus,
+fieldset[disabled] .btn-secundario.ghost:focus,
+.btn-secundario.ghost.disabled.focus,
+.btn-secundario.ghost[disabled].focus,
+fieldset[disabled] .btn-secundario.ghost.focus,
+.btn-secundario.ghost.disabled:active,
+.btn-secundario.ghost[disabled]:active,
+fieldset[disabled] .btn-secundario.ghost:active,
+.btn-secundario.ghost.disabled.active,
+.btn-secundario.ghost[disabled].active,
+fieldset[disabled] .btn-secundario.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-secundario.ghost .badge {
+  color: #2a3293;
+  background-color: #ffffff;
+}
+
+/* [ Secondary Ghost Transparent Bootstrap Button ] */
+.btn-secundario.ghost.transparent {
+  color: #2a3293;
+  background-color: transparent;
+  border-color: #2a3293;
+}
+
+.btn-secundario.ghost.transparent:focus,
+.btn-secundario.ghost.transparent.focus {
+  color: #353fbb;
+  background-color: transparent;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost.transparent:hover {
+  color: #353fbb;
+  background-color: transparent;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost.transparent:active,
+.btn-secundario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-secundario.ghost.transparent {
+  color: #353fbb;
+  background-color: transparent;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost.transparent:active:hover,
+.btn-secundario.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-secundario.ghost.transparent:hover,
+.btn-secundario.ghost.transparent:active:focus,
+.btn-secundario.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-secundario.ghost.transparent:focus,
+.btn-secundario.ghost.transparent:active.focus,
+.btn-secundario.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-secundario.ghost.transparent.focus {
+  color: #353fbb;
+  background-color: transparent;
+  border-color: #353fbb;
+}
+
+.btn-secundario.ghost.transparent:active,
+.btn-secundario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-secundario.ghost.transparent {
+  background-image: none;
+}
+
+.btn-secundario.ghost.transparent.disabled,
+.btn-secundario.ghost.transparent[disabled],
+fieldset[disabled] .btn-secundario.ghost.transparent,
+.btn-secundario.ghost.transparent.disabled:hover,
+.btn-secundario.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-secundario.ghost.transparent:hover,
+.btn-secundario.ghost.transparent.disabled:focus,
+.btn-secundario.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-secundario.ghost.transparent:focus,
+.btn-secundario.ghost.transparent.disabled.focus,
+.btn-secundario.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-secundario.ghost.transparent.focus,
+.btn-secundario.ghost.transparent.disabled:active,
+.btn-secundario.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-secundario.ghost.transparent:active,
+.btn-secundario.ghost.transparent.disabled.active,
+.btn-secundario.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-secundario.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-secundario.ghost.transparent .badge {
+  color: #2a3293;
+  background-color: transparent;
+}
+
+/* [ Terciary Bootstrap Button ] */
+.btn-terciario {
+  color: #989898;
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+  font-weight: 700;
+}
+
+.btn-terciario:focus,
+.btn-terciario.focus {
+  color: #989898;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario:hover {
+  color: #989898;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario:active,
+.btn-terciario.active,
+.open > .dropdown-toggle.btn-terciario {
+  color: #989898;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario:active:hover,
+.btn-terciario.active:hover,
+.open > .dropdown-toggle.btn-terciario:hover,
+.btn-terciario:active:focus,
+.btn-terciario.active:focus,
+.open > .dropdown-toggle.btn-terciario:focus,
+.btn-terciario:active.focus,
+.btn-terciario.active.focus,
+.open > .dropdown-toggle.btn-terciario.focus {
+  color: #989898;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario:active,
+.btn-terciario.active,
+.open > .dropdown-toggle.btn-terciario {
+  background-image: none;
+}
+
+.btn-terciario.disabled,
+.btn-terciario[disabled],
+fieldset[disabled] .btn-terciario,
+.btn-terciario.disabled:hover,
+.btn-terciario[disabled]:hover,
+fieldset[disabled] .btn-terciario:hover,
+.btn-terciario.disabled:focus,
+.btn-terciario[disabled]:focus,
+fieldset[disabled] .btn-terciario:focus,
+.btn-terciario.disabled.focus,
+.btn-terciario[disabled].focus,
+fieldset[disabled] .btn-terciario.focus,
+.btn-terciario.disabled:active,
+.btn-terciario[disabled]:active,
+fieldset[disabled] .btn-terciario:active,
+.btn-terciario.disabled.active,
+.btn-terciario[disabled].active,
+fieldset[disabled] .btn-terciario.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-terciario .badge {
+  color: #d8d8d8;
+  background-color: #ffffff;
+}
+
+/* [ Terciary Ghost Bootstrap Button ] */
+.btn-terciario.ghost {
+  color: #d8d8d8;
+  background-color: #ffffff;
+  border-color: #d8d8d8;
+}
+
+.btn-terciario.ghost:focus,
+.btn-terciario.ghost.focus {
+  color: #e5e5e5;
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost:hover {
+  color: #e5e5e5;
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost:active,
+.btn-terciario.ghost.active,
+.open > .dropdown-toggle.btn-terciario.ghost {
+  color: #e5e5e5;
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost:active:hover,
+.btn-terciario.ghost.active:hover,
+.open > .dropdown-toggle.btn-terciario.ghost:hover,
+.btn-terciario.ghost:active:focus,
+.btn-terciario.ghost.active:focus,
+.open > .dropdown-toggle.btn-terciario.ghost:focus,
+.btn-terciario.ghost:active.focus,
+.btn-terciario.ghost.active.focus,
+.open > .dropdown-toggle.btn-terciario.ghost.focus {
+  color: #e5e5e5;
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost:active,
+.btn-terciario.ghost.active,
+.open > .dropdown-toggle.btn-terciario.ghost {
+  background-image: none;
+}
+
+.btn-terciario.ghost.disabled,
+.btn-terciario.ghost[disabled],
+fieldset[disabled] .btn-terciario.ghost,
+.btn-terciario.ghost.disabled:hover,
+.btn-terciario.ghost[disabled]:hover,
+fieldset[disabled] .btn-terciario.ghost:hover,
+.btn-terciario.ghost.disabled:focus,
+.btn-terciario.ghost[disabled]:focus,
+fieldset[disabled] .btn-terciario.ghost:focus,
+.btn-terciario.ghost.disabled.focus,
+.btn-terciario.ghost[disabled].focus,
+fieldset[disabled] .btn-terciario.ghost.focus,
+.btn-terciario.ghost.disabled:active,
+.btn-terciario.ghost[disabled]:active,
+fieldset[disabled] .btn-terciario.ghost:active,
+.btn-terciario.ghost.disabled.active,
+.btn-terciario.ghost[disabled].active,
+fieldset[disabled] .btn-terciario.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-terciario.ghost .badge {
+  color: #d8d8d8;
+  background-color: #ffffff;
+}
+
+/* [ Terciary Ghost Transparent Bootstrap Button ] */
+.btn-terciario.ghost.transparent {
+  color: #d8d8d8;
+  background-color: transparent;
+  border-color: #d8d8d8;
+}
+
+.btn-terciario.ghost.transparent:focus,
+.btn-terciario.ghost.transparent.focus {
+  color: #e5e5e5;
+  background-color: transparent;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost.transparent:hover {
+  color: #e5e5e5;
+  background-color: transparent;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost.transparent:active,
+.btn-terciario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-terciario.ghost.transparent {
+  color: #e5e5e5;
+  background-color: transparent;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost.transparent:active:hover,
+.btn-terciario.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-terciario.ghost.transparent:hover,
+.btn-terciario.ghost.transparent:active:focus,
+.btn-terciario.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-terciario.ghost.transparent:focus,
+.btn-terciario.ghost.transparent:active.focus,
+.btn-terciario.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-terciario.ghost.transparent.focus {
+  color: #e5e5e5;
+  background-color: transparent;
+  border-color: #e5e5e5;
+}
+
+.btn-terciario.ghost.transparent:active,
+.btn-terciario.ghost.transparent.active,
+.open > .dropdown-toggle.btn-terciario.ghost.transparent {
+  background-image: none;
+}
+
+.btn-terciario.ghost.transparent.disabled,
+.btn-terciario.ghost.transparent[disabled],
+fieldset[disabled] .btn-terciario.ghost.transparent,
+.btn-terciario.ghost.transparent.disabled:hover,
+.btn-terciario.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-terciario.ghost.transparent:hover,
+.btn-terciario.ghost.transparent.disabled:focus,
+.btn-terciario.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-terciario.ghost.transparent:focus,
+.btn-terciario.ghost.transparent.disabled.focus,
+.btn-terciario.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-terciario.ghost.transparent.focus,
+.btn-terciario.ghost.transparent.disabled:active,
+.btn-terciario.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-terciario.ghost.transparent:active,
+.btn-terciario.ghost.transparent.disabled.active,
+.btn-terciario.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-terciario.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-terciario.ghost.transparent .badge {
+  color: #d8d8d8;
+  background-color: transparent;
+}
+
+/* [ Green Ghost Transparent Bootstrap Button ] */
+.btn-white.ghost.transparent {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-white.ghost.transparent:focus,
+.btn-white.ghost.transparent.focus {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white.ghost.transparent:hover {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white.ghost.transparent:active,
+.btn-white.ghost.transparent.active,
+.open > .dropdown-toggle.btn-white.ghost.transparent {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white.ghost.transparent:active:hover,
+.btn-white.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-white.ghost.transparent:hover,
+.btn-white.ghost.transparent:active:focus,
+.btn-white.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-white.ghost.transparent:focus,
+.btn-white.ghost.transparent:active.focus,
+.btn-white.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-white.ghost.transparent.focus {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white.ghost.transparent:active,
+.btn-white.ghost.transparent.active,
+.open > .dropdown-toggle.btn-white.ghost.transparent {
+  background-image: none;
+}
+
+.btn-white.ghost.transparent.disabled,
+.btn-white.ghost.transparent[disabled],
+fieldset[disabled] .btn-white.ghost.transparent,
+.btn-white.ghost.transparent.disabled:hover,
+.btn-white.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-white.ghost.transparent:hover,
+.btn-white.ghost.transparent.disabled:focus,
+.btn-white.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-white.ghost.transparent:focus,
+.btn-white.ghost.transparent.disabled.focus,
+.btn-white.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-white.ghost.transparent.focus,
+.btn-white.ghost.transparent.disabled:active,
+.btn-white.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-white.ghost.transparent:active,
+.btn-white.ghost.transparent.disabled.active,
+.btn-white.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-white.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-white.ghost.transparent .badge {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* [ Red Bootstrap Button ] */
+.btn-red {
+  color: #ffffff;
+  background-color: #f44336;
+  border-color: #f44336;
+  font-weight: 700;
+}
+
+.btn-red:focus,
+.btn-red.focus {
+  color: #ffffff;
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.btn-red:hover {
+  color: #ffffff;
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  color: #ffffff;
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.btn-red:active:hover,
+.btn-red.active:hover,
+.open > .dropdown-toggle.btn-red:hover,
+.btn-red:active:focus,
+.btn-red.active:focus,
+.open > .dropdown-toggle.btn-red:focus,
+.btn-red:active.focus,
+.btn-red.active.focus,
+.open > .dropdown-toggle.btn-red.focus {
+  color: #ffffff;
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  background-image: none;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled.focus,
+.btn-red[disabled].focus,
+fieldset[disabled] .btn-red.focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-red .badge {
+  color: #f44336;
+  background-color: #ffffff;
+}
+
+/* [ red Ghost Bootstrap Button ] */
+.btn-red.ghost {
+  color: #f44336;
+  background-color: #ffffff;
+  border-color: #f44336;
+}
+
+.btn-red.ghost:focus,
+.btn-red.ghost.focus {
+  color: #e53935;
+  background-color: #ffffff;
+  border-color: #e53935;
+}
+
+.btn-red.ghost:hover {
+  color: #e53935;
+  background-color: #ffffff;
+  border-color: #e53935;
+}
+
+.btn-red.ghost:active,
+.btn-red.ghost.active,
+.open > .dropdown-toggle.btn-red.ghost {
+  color: #e53935;
+  background-color: #ffffff;
+  border-color: #e53935;
+}
+
+.btn-red.ghost:active:hover,
+.btn-red.ghost.active:hover,
+.open > .dropdown-toggle.btn-red.ghost:hover,
+.btn-red.ghost:active:focus,
+.btn-red.ghost.active:focus,
+.open > .dropdown-toggle.btn-red.ghost:focus,
+.btn-red.ghost:active.focus,
+.btn-red.ghost.active.focus,
+.open > .dropdown-toggle.btn-red.ghost.focus {
+  color: #e53935;
+  background-color: #ffffff;
+  border-color: #e53935;
+}
+
+.btn-red.ghost:active,
+.btn-red.ghost.active,
+.open > .dropdown-toggle.btn-red.ghost {
+  background-image: none;
+}
+
+.btn-red.ghost.disabled,
+.btn-red.ghost[disabled],
+fieldset[disabled] .btn-red.ghost,
+.btn-red.ghost.disabled:hover,
+.btn-red.ghost[disabled]:hover,
+fieldset[disabled] .btn-red.ghost:hover,
+.btn-red.ghost.disabled:focus,
+.btn-red.ghost[disabled]:focus,
+fieldset[disabled] .btn-red.ghost:focus,
+.btn-red.ghost.disabled.focus,
+.btn-red.ghost[disabled].focus,
+fieldset[disabled] .btn-red.ghost.focus,
+.btn-red.ghost.disabled:active,
+.btn-red.ghost[disabled]:active,
+fieldset[disabled] .btn-red.ghost:active,
+.btn-red.ghost.disabled.active,
+.btn-red.ghost[disabled].active,
+fieldset[disabled] .btn-red.ghost.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-red.ghost .badge {
+  color: #f44336;
+  background-color: #ffffff;
+}
+
+/* [ red Ghost Transparent Bootstrap Button ] */
+.btn-red.ghost.transparent {
+  color: #f44336;
+  background-color: transparent;
+  border-color: #f44336;
+}
+
+.btn-red.ghost.transparent:focus,
+.btn-red.ghost.transparent.focus {
+  color: #e53935;
+  background-color: transparent;
+  border-color: #e53935;
+}
+
+.btn-red.ghost.transparent:hover {
+  color: #e53935;
+  background-color: transparent;
+  border-color: #e53935;
+}
+
+.btn-red.ghost.transparent:active,
+.btn-red.ghost.transparent.active,
+.open > .dropdown-toggle.btn-red.ghost.transparent {
+  color: #e53935;
+  background-color: transparent;
+  border-color: #e53935;
+}
+
+.btn-red.ghost.transparent:active:hover,
+.btn-red.ghost.transparent.active:hover,
+.open > .dropdown-toggle.btn-red.ghost.transparent:hover,
+.btn-red.ghost.transparent:active:focus,
+.btn-red.ghost.transparent.active:focus,
+.open > .dropdown-toggle.btn-red.ghost.transparent:focus,
+.btn-red.ghost.transparent:active.focus,
+.btn-red.ghost.transparent.active.focus,
+.open > .dropdown-toggle.btn-red.ghost.transparent.focus {
+  color: #e53935;
+  background-color: transparent;
+  border-color: #e53935;
+}
+
+.btn-red.ghost.transparent:active,
+.btn-red.ghost.transparent.active,
+.open > .dropdown-toggle.btn-red.ghost.transparent {
+  background-image: none;
+}
+
+.btn-red.ghost.transparent.disabled,
+.btn-red.ghost.transparent[disabled],
+fieldset[disabled] .btn-red.ghost.transparent,
+.btn-red.ghost.transparent.disabled:hover,
+.btn-red.ghost.transparent[disabled]:hover,
+fieldset[disabled] .btn-red.ghost.transparent:hover,
+.btn-red.ghost.transparent.disabled:focus,
+.btn-red.ghost.transparent[disabled]:focus,
+fieldset[disabled] .btn-red.ghost.transparent:focus,
+.btn-red.ghost.transparent.disabled.focus,
+.btn-red.ghost.transparent[disabled].focus,
+fieldset[disabled] .btn-red.ghost.transparent.focus,
+.btn-red.ghost.transparent.disabled:active,
+.btn-red.ghost.transparent[disabled]:active,
+fieldset[disabled] .btn-red.ghost.transparent:active,
+.btn-red.ghost.transparent.disabled.active,
+.btn-red.ghost.transparent[disabled].active,
+fieldset[disabled] .btn-red.ghost.transparent.active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-red.ghost.transparent .badge {
+  color: #f44336;
+  background-color: transparent;
+}
+
+/* [ Big Button ] */
+.btn-big {
+  padding: 10px 30px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.bleft-3-green {
+  border-left: 3px solid green;
+}
+
+.language-flag {
+  padding-right: 15px;
+  color: #666;
+}
+
+.language-flag:hover {
+  text-decoration: none;
+  color: #777;
+}
+
+.language-flag img {
+  max-height: 17px;
+}
+
+.header-nav {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.header-nav > li {
+  display: inline-block;
+}
+
+.header-nav > li > a, .header-nav > li > div.dropdown > a {
+  display: inline-block;
+  color: #666;
+  text-transform: uppercase;
+  padding: 31px 10px;
+  font-size: 0.9em;
+}
+
+.header-nav > li > a:hover, .header-nav > li > div.dropdown:hover, .header-nav > li > div.dropdown:hover > a {
+  text-decoration: none;
+  background-color: #063;
+  color: #fff;
+}
+
+.header-nav > li > a:focus, .header-nav > li > div.dropdown:focus, .header-nav > li > div.dropdown:focus > a {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+.mtop-13 {
+  margin-top: 13px;
+}
+
+.relative {
+  position: relative;
+}
+
+.reservar-banner-home {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.input-calendar {
+  background-image: url("../img/icones/calendario.png");
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
+  padding-left: 31px;
+}
+
+.bbottom-5-green {
+  border-bottom: 5px solid #063;
+}
+
+.banner-restaurante-footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #063;
+  background-color: rgba(0, 101, 51, 0.7);
+  width: 320px;
+  height: 100%;
+  padding: 30px;
+  color: #fff;
+}
+
+.banner-restaurante-footer-img {
+  height: 375px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/gastronomia/bella-tavola-7-1000x375.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-primario {
+  background-color: #063;
+}
+
+.bg-gray-666, .bg-grey-666, .bg-666 {
+  background-color: #666;
+}
+
+.bg-gray-555, .bg-grey-555, .bg-555 {
+  background-color: #555;
+}
+
+.bg-gray-444, .bg-grey-444, .bg-444 {
+  background-color: #444;
+}
+
+.bg-gray-333, .bg-grey-333, .bg-333 {
+  background-color: #333;
+}
+
+.vertical-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.vertical-list > li {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.vertical-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.vertical-list > li > a, .vertical-list > li > a:hover, .vertical-list > li > a:focus {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+.footer-icon-width {
+  width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 97%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #f5f5f5;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.175);
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 12px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #063;
+  border-left: 5px solid #063;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  background-color: #063;
+  color: #fff;
+  border-left: 5px solid #f44336;
+}
+
+.horizontal-footer-list {
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.horizontal-footer-list > li {
+  display: inline-block;
+  color: #f5f5f5;
+}
+
+.horizontal-footer-list > li > a {
+  display: inline-block;
+  color: #f5f5f5;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.horizontal-footer-list > li > a:hover, .horizontal-footer-list > li > a:focus {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.relative-top-minus-2 {
+  position: relative;
+  top: -2px;
+}
+
+.ui-datepicker {
+  padding: 0;
+}
+
+.ui-datepicker table {
+  margin: 0;
+}
+
+.ui-widget {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.0em;
+}
+
+.ui-widget .ui-widget {
+  font-size: 1em;
+}
+
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1em;
+}
+
+.ui-widget.ui-widget-content {
+  border: 1px solid #d3d3d3;
+}
+
+.ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: #ffffff;
+  color: #222222;
+}
+
+.ui-widget-content a {
+  color: #222222;
+}
+
+.ui-widget-header {
+  border: 1px solid #006633;
+  background: #006633;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ui-widget-header a {
+  color: #222222;
+}
+
+.ui-widget-header .ui-icon {
+  background-image: none;
+}
+
+.ui-datepicker-prev span.ui-icon, .ui-datepicker-next span.ui-icon {
+  width: 13px;
+  height: 20px;
+  display: block;
+  text-indent: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.ui-datepicker-prev span:before {
+  content: "\f137";
+  font-family: FontAwesome;
+  position: relative;
+  color: #fff;
+}
+
+.ui-datepicker-next span:before {
+  content: "\f138";
+  font-family: FontAwesome;
+  position: relative;
+  color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -7px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border: 1px solid #ddd;
+  background: #eee;
+  font-weight: normal;
+  color: #555555;
+}
+
+.ui-datepicker .ui-datepicker-next:hover, .ui-datepicker .ui-datepicker-prev:hover {
+  background-color: #063;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+  border: 1px solid #063;
+  background: #063;
+  font-weight: normal;
+  color: #fff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border: 1px solid #063;
+  background: #063;
+  font-weight: normal;
+  color: #fff;
+}
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+  border-top-right-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-left-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+  border-bottom-right-radius: 0;
+}
+
+.navigation-desktop {
+  width: 100%;
+}
+
+.navigation-desktop ul.unstyled-list {
+  margin-bottom: 0;
+}
+
+.navigation-desktop ul.unstyled-list > li {
+  display: inline-block;
+}
+
+.navigation-desktop ul.unstyled-list > li > a {
+  display: block;
+  padding: 30px 20px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+}
+
+.navigation-desktop ul.unstyled-list > li > a:hover {
+  color: #ffb200;
+  text-decoration: none;
+}
+
+.navigation-desktop ul.unstyled-list > li.dropdown-master:hover > a {
+  background-color: #ffb200;
+  color: #fff;
+}
+
+.desktop-banner {
+  position: relative;
+}
+
+.absolute-desktop-banner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation-mobile {
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.navigation-mobile .fa-bars {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.navigation-mobile-overlay {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.navigation-mobile-overlay.hidden {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.navigation-drawer {
+  background-color: #fff;
+  border-left: 5px solid #063;
+  position: fixed;
+  top: 0;
+  right: -290px;
+  overflow-y: auto;
+  width: 290px;
+  padding: 15px;
+  height: 100%;
+  z-index: 5;
+}
+
+.navigation-drawer .fa-times {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.pulled-drawer {
+  right: 0px !important;
+}
+
+.unstyled-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navigation-drawer .unstyled-list > li > a {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  border-left: 3px solid #063;
+}
+
+.navigation-drawer .unstyled-list > li > a:hover, .navigation-drawer .unstyled-list > li > a:focus {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 15px;
+  border-left: 3px solid #f44336;
+}
+
+.navigation-drawer img {
+  margin-top: 13px;
+}
+
+.max-height-20 {
+  max-height: 20px;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.width-100per {
+  width: 100%;
+}
+
+.navigation-drawer-submenu {
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding-left: 25px;
+}
+
+.navigation-drawer-submenu > li > a {
+  color: #666;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+}
+
+.navigation-drawer-submenu > li > a:focus, .navigation-drawer-submenu > li > a:active, .navigation-drawer-submenu > li > a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+.color-063 {
+  color: #063;
+}
+
+.color-666 {
+  color: #666;
+}
+
+.color-red {
+  color: #f44336;
+}
+
+.color-green {
+  color: #84c225;
+}
+
+.color-primary, .primary-color, .cor-primaria {
+  color: #063;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.bbottom-5-primary {
+  border-bottom: 5px solid #063;
+}
+
+ul.breadcrumbs {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul.breadcrumbs > li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #d0964e;
+}
+
+ul.breadcrumbs > li:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  padding-left: 7px;
+  padding-right: 3px;
+}
+
+ul.breadcrumbs > li:last-child:after {
+  content: none;
+}
+
+ul.breadcrumbs > li > a {
+  color: #aaa;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-indicators .active {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+}
+
+.carousel-indicators li {
+  width: 30px;
+  height: 8px;
+  margin: 0;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+}
+
+.carousel-indicators .active {
+  margin: 0;
+  width: 30px;
+  height: 8px;
+  background-color: #ffffff;
+}
+
+.bbottom-2-tertiary {
+  border-bottom: 2px solid #d0964e;
+}
+
+.bbottom-3-tertiary {
+  border-bottom: 3px solid #d0964e;
+}
+
+.section-single-body > h1,
+.section-single-body > h2,
+.section-single-body > h3,
+.section-single-body > h4,
+.section-single-body > h5,
+.section-single-body > h6 {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section-single-body > h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.section-single-body > h2 {
+  font-size: 1.6em;
+}
+
+.section-single-body > h3 {
+  font-size: 1.5em;
+}
+
+.section-single-body > h4 {
+  font-size: 1.4em;
+}
+
+.section-single-body > h5 {
+  font-size: 1.3em;
+}
+
+.section-single-body > h6 {
+  font-size: 1.2em;
+}
+
+.section-single-body > h1.title {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-single-body > p {
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.section-single-body > blockquote > p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.section-single-body > p > strong {
+  font-weight: 700;
+}
+
+.section-single-body > p:last-child {
+  margin-bottom: 0;
+}
+
+.section-single-body > ul, .section-single-body > ol {
+  padding-left: 30px;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.section-single-body > ul > li, .section-single-body > ol > li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.section-single-body > ul {
+  list-style-type: none;
+}
+
+.section-single-body > ul > li::before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  color: #007a9c;
+  position: absolute;
+  left: 55px;
+}
+
+.section-single-body > p > a, .section-single-body > blockquote > p > a, .section-single-body > a {
+  color: #063;
+  font-weight: 700;
+}
+
+.section-single-body:last-child p:last-child {
+  margin-bottom: 0;
+}
+
+.section-single-body:last-child ul:last-child {
+  margin-bottom: 0;
+}
+
+.menu-menu-1-container {
+  display: inline-block;
+}
+
+.menu {
+  display: block;
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu > li, .menu > li > a {
+  display: inline-block;
+}
+
+.menu > li > a {
+  padding: 15px;
+}
+
+.no-horizontal-resize {
+  resize: vertical;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.bg-twitter {
+  background-color: #55acee;
+}
+
+.bg-instagram {
+  background-color: #3f729b;
+}
+
+.bg-google-plus {
+  background-color: #dc4e41;
+}
+
+.bg-wordpress {
+  background-color: #464646;
+}
+
+.bg-tripadvisor {
+  background-color: #589442;
+}
+
+.color-facebook {
+  color: #3b5998;
+}
+
+.color-twitter {
+  color: #55acee;
+}
+
+.color-instagram {
+  color: #3f729b;
+}
+
+.color-google-plus {
+  color: #dc4e41;
+}
+
+.color-wordpress {
+  color: #464646;
+}
+
+.color-tripadvisor {
+  color: #589442;
+}
+
+/* [ Tipografia ] */
+/* [ Tamanho ] */
+.font-0-4em {
+  font-size: 0.4em;
+}
+
+.font-0-5em {
+  font-size: 0.5em;
+}
+
+.font-0-6em {
+  font-size: 0.6em;
+}
+
+.font-0-7em {
+  font-size: 0.7em;
+}
+
+.font-0-8em {
+  font-size: 0.8em;
+}
+
+.font-0-9em {
+  font-size: 0.9em;
+}
+
+.font-1em {
+  font-size: 1.0em;
+}
+
+.font-1-1em {
+  font-size: 1.1em;
+}
+
+.font-1-2em {
+  font-size: 1.2em;
+}
+
+.font-1-3em {
+  font-size: 1.3em;
+}
+
+.font-1-4em {
+  font-size: 1.4em;
+}
+
+.font-1-5em {
+  font-size: 1.5em;
+}
+
+.font-1-6em {
+  font-size: 1.6em;
+}
+
+.font-1-7em {
+  font-size: 1.7em;
+}
+
+.font-1-8em {
+  font-size: 1.8em;
+}
+
+.font-1-9em {
+  font-size: 1.9em;
+}
+
+.font-2em {
+  font-size: 2.0em;
+}
+
+.font-2-1em {
+  font-size: 2.1em;
+}
+
+.font-2-2em {
+  font-size: 2.2em;
+}
+
+.font-2-3em {
+  font-size: 2.3em;
+}
+
+.font-2-4em {
+  font-size: 2.4em;
+}
+
+.font-2-5em {
+  font-size: 2.5em;
+}
+
+.font-2-6em {
+  font-size: 2.6em;
+}
+
+.font-2-7em {
+  font-size: 2.7em;
+}
+
+.font-2-8em {
+  font-size: 2.8em;
+}
+
+.font-2-9em {
+  font-size: 2.9em;
+}
+
+.font-3em {
+  font-size: 3.0em;
+}
+
+.font-3-1em {
+  font-size: 3.1em;
+}
+
+.font-3-2em {
+  font-size: 3.2em;
+}
+
+.font-3-3em {
+  font-size: 3.3em;
+}
+
+.font-3-4em {
+  font-size: 3.4em;
+}
+
+.font-3-5em {
+  font-size: 3.5em;
+}
+
+.font-3-6em {
+  font-size: 3.6em;
+}
+
+.font-3-7em {
+  font-size: 3.7em;
+}
+
+.font-3-8em {
+  font-size: 3.8em;
+}
+
+.font-3-9em {
+  font-size: 3.9em;
+}
+
+.font-4em {
+  font-size: 4.0em;
+}
+
+.font-4-1em {
+  font-size: 4.1em;
+}
+
+.font-4-2em {
+  font-size: 4.2em;
+}
+
+.font-4-3em {
+  font-size: 4.3em;
+}
+
+.font-4-4em {
+  font-size: 4.4em;
+}
+
+.font-4-5em {
+  font-size: 4.5em;
+}
+
+.font-4-6em {
+  font-size: 4.6em;
+}
+
+.font-4-7em {
+  font-size: 4.7em;
+}
+
+.font-4-8em {
+  font-size: 4.8em;
+}
+
+.font-4-9em {
+  font-size: 4.9em;
+}
+
+.font-5em {
+  font-size: 5.0em;
+}
+
+/* [ Tipografia ] */
+/* [ Tamanho da linha (em) ] */
+.line-height-1-7 {
+  line-height: 1.7;
+}
+
+/* [ Tipografia ] */
+/* [ Estilo ] */
+.no-text-deco,
+.no-text-deco:hover {
+  text-decoration: none;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300, .font-light {
+  font-weight: 300;
+}
+
+.font-400, .font-regular {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700, .font-bold {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900, .font-ultra-bold {
+  font-weight: 900;
+}
+
+.font-bold, .weight-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+/* [ Espa├ºamento ] */
+/* [ Padding ] */
+/* [ Padding total ] */
+.padding-0 {
+  padding: 0;
+}
+
+.padding-1 {
+  padding: 1px;
+}
+
+.padding-2 {
+  padding: 2px;
+}
+
+.padding-3 {
+  padding: 3px;
+}
+
+.padding-4 {
+  padding: 4px;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-6 {
+  padding: 6px;
+}
+
+.padding-7 {
+  padding: 7px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-9 {
+  padding: 9px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.padding-35 {
+  padding: 35px;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.padding-45 {
+  padding: 45px;
+}
+
+.padding-50 {
+  padding: 50px;
+}
+
+/* [ Padding top ] */
+.ptop-0 {
+  padding-top: 0;
+}
+
+.ptop-1 {
+  padding-top: 1px;
+}
+
+.ptop-2 {
+  padding-top: 2px;
+}
+
+.ptop-3 {
+  padding-top: 3px;
+}
+
+.ptop-4 {
+  padding-top: 4px;
+}
+
+.ptop-5 {
+  padding-top: 5px;
+}
+
+.ptop-6 {
+  padding-top: 6px;
+}
+
+.ptop-7 {
+  padding-top: 7px;
+}
+
+.ptop-8 {
+  padding-top: 8px;
+}
+
+.ptop-9 {
+  padding-top: 9px;
+}
+
+.ptop-10 {
+  padding-top: 10px;
+}
+
+.ptop-15 {
+  padding-top: 15px;
+}
+
+.ptop-20 {
+  padding-top: 20px;
+}
+
+.ptop-25 {
+  padding-top: 25px;
+}
+
+.ptop-30 {
+  padding-top: 30px;
+}
+
+.ptop-35 {
+  padding-top: 35px;
+}
+
+.ptop-40 {
+  padding-top: 40px;
+}
+
+.ptop-45 {
+  padding-top: 45px;
+}
+
+.ptop-50 {
+  padding-top: 50px;
+}
+
+/* [ Padding right ] */
+.pright-0 {
+  padding-right: 0;
+}
+
+.pright-1 {
+  padding-right: 1px;
+}
+
+.pright-2 {
+  padding-right: 2px;
+}
+
+.pright-3 {
+  padding-right: 3px;
+}
+
+.pright-4 {
+  padding-right: 4px;
+}
+
+.pright-5 {
+  padding-right: 5px;
+}
+
+.pright-6 {
+  padding-right: 6px;
+}
+
+.pright-7 {
+  padding-right: 7px;
+}
+
+.pright-8 {
+  padding-right: 8px;
+}
+
+.pright-9 {
+  padding-right: 9px;
+}
+
+.pright-10 {
+  padding-right: 10px;
+}
+
+.pright-15 {
+  padding-right: 15px;
+}
+
+.pright-20 {
+  padding-right: 20px;
+}
+
+.pright-25 {
+  padding-right: 25px;
+}
+
+.pright-30 {
+  padding-right: 30px;
+}
+
+.pright-35 {
+  padding-right: 35px;
+}
+
+.pright-40 {
+  padding-right: 40px;
+}
+
+.pright-45 {
+  padding-right: 45px;
+}
+
+.pright-50 {
+  padding-right: 50px;
+}
+
+/* [ Padding bottom ] */
+.pbottom-0 {
+  padding-bottom: 0;
+}
+
+.pbottom-1 {
+  padding-bottom: 1px;
+}
+
+.pbottom-2 {
+  padding-bottom: 2px;
+}
+
+.pbottom-3 {
+  padding-bottom: 3px;
+}
+
+.pbottom-4 {
+  padding-bottom: 4px;
+}
+
+.pbottom-5 {
+  padding-bottom: 5px;
+}
+
+.pbottom-6 {
+  padding-bottom: 6px;
+}
+
+.pbottom-7 {
+  padding-bottom: 7px;
+}
+
+.pbottom-8 {
+  padding-bottom: 8px;
+}
+
+.pbottom-9 {
+  padding-bottom: 9px;
+}
+
+.pbottom-10 {
+  padding-bottom: 10px;
+}
+
+.pbottom-15 {
+  padding-bottom: 15px;
+}
+
+.pbottom-20 {
+  padding-bottom: 20px;
+}
+
+.pbottom-25 {
+  padding-bottom: 25px;
+}
+
+.pbottom-30 {
+  padding-bottom: 30px;
+}
+
+.pbottom-35 {
+  padding-bottom: 35px;
+}
+
+.pbottom-40 {
+  padding-bottom: 40px;
+}
+
+.pbottom-45 {
+  padding-bottom: 45px;
+}
+
+.pbottom-50 {
+  padding-bottom: 50px;
+}
+
+/* [ Padding left ] */
+.pleft-0 {
+  padding-left: 0;
+}
+
+.pleft-1 {
+  padding-left: 1px;
+}
+
+.pleft-2 {
+  padding-left: 2px;
+}
+
+.pleft-3 {
+  padding-left: 3px;
+}
+
+.pleft-4 {
+  padding-left: 4px;
+}
+
+.pleft-5 {
+  padding-left: 5px;
+}
+
+.pleft-6 {
+  padding-left: 6px;
+}
+
+.pleft-7 {
+  padding-left: 7px;
+}
+
+.pleft-8 {
+  padding-left: 8px;
+}
+
+.pleft-9 {
+  padding-left: 9px;
+}
+
+.pleft-10 {
+  padding-left: 10px;
+}
+
+.pleft-15 {
+  padding-left: 15px;
+}
+
+.pleft-20 {
+  padding-left: 20px;
+}
+
+.pleft-25 {
+  padding-left: 25px;
+}
+
+.pleft-30 {
+  padding-left: 30px;
+}
+
+.pleft-35 {
+  padding-left: 35px;
+}
+
+.pleft-40 {
+  padding-left: 40px;
+}
+
+.pleft-45 {
+  padding-left: 45px;
+}
+
+.pleft-50 {
+  padding-left: 50px;
+}
+
+/* [ Padding vertical ] */
+.padver-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.padver-1 {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.padver-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.padver-3 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.padver-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.padver-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.padver-6 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.padver-7 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.padver-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.padver-9 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.padver-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padver-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.padver-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padver-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.padver-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.padver-35 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.padver-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.padver-45 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.padver-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* [ Padding horizontal ] */
+.padhor-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.padhor-1 {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.padhor-2 {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.padhor-3 {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.padhor-4 {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.padhor-5 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.padhor-6 {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.padhor-7 {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.padhor-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.padhor-9 {
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.padhor-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.padhor-15 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.padhor-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.padhor-25 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.padhor-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.padhor-35 {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.padhor-40 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.padhor-45 {
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+.padhor-50 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* [ Espa├ºamento ] */
+/* [ Margin ] */
+/* [ Margin total ] */
+.margin-0 {
+  margin: 0;
+}
+
+.margin-1 {
+  margin: 1px;
+}
+
+.margin-2 {
+  margin: 2px;
+}
+
+.margin-3 {
+  margin: 3px;
+}
+
+.margin-4 {
+  margin: 4px;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-6 {
+  margin: 6px;
+}
+
+.margin-7 {
+  margin: 7px;
+}
+
+.margin-8 {
+  margin: 8px;
+}
+
+.margin-9 {
+  margin: 9px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-15 {
+  margin: 15px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.margin-25 {
+  margin: 25px;
+}
+
+.margin-30 {
+  margin: 30px;
+}
+
+.margin-35 {
+  margin: 35px;
+}
+
+.margin-40 {
+  margin: 40px;
+}
+
+.margin-45 {
+  margin: 45px;
+}
+
+.margin-50 {
+  margin: 50px;
+}
+
+/* [ Margin top ] */
+.mtop-0 {
+  margin-top: 0;
+}
+
+.mtop-1 {
+  margin-top: 1px;
+}
+
+.mtop-2 {
+  margin-top: 2px;
+}
+
+.mtop-3 {
+  margin-top: 3px;
+}
+
+.mtop-4 {
+  margin-top: 4px;
+}
+
+.mtop-5 {
+  margin-top: 5px;
+}
+
+.mtop-6 {
+  margin-top: 6px;
+}
+
+.mtop-7 {
+  margin-top: 7px;
+}
+
+.mtop-8 {
+  margin-top: 8px;
+}
+
+.mtop-9 {
+  margin-top: 9px;
+}
+
+.mtop-10 {
+  margin-top: 10px;
+}
+
+.mtop-15 {
+  margin-top: 15px;
+}
+
+.mtop-20 {
+  margin-top: 20px;
+}
+
+.mtop-25 {
+  margin-top: 25px;
+}
+
+.mtop-30 {
+  margin-top: 30px;
+}
+
+.mtop-35 {
+  margin-top: 35px;
+}
+
+.mtop-40 {
+  margin-top: 40px;
+}
+
+.mtop-45 {
+  margin-top: 45px;
+}
+
+.mtop-50 {
+  margin-top: 50px;
+}
+
+/* [ Margin right ] */
+.mright-0 {
+  margin-right: 0;
+}
+
+.mright-1 {
+  margin-right: 1px;
+}
+
+.mright-2 {
+  margin-right: 2px;
+}
+
+.mright-3 {
+  margin-right: 3px;
+}
+
+.mright-4 {
+  margin-right: 4px;
+}
+
+.mright-5 {
+  margin-right: 5px;
+}
+
+.mright-6 {
+  margin-right: 6px;
+}
+
+.mright-7 {
+  margin-right: 7px;
+}
+
+.mright-8 {
+  margin-right: 8px;
+}
+
+.mright-9 {
+  margin-right: 9px;
+}
+
+.mright-10 {
+  margin-right: 10px;
+}
+
+.mright-15 {
+  margin-right: 15px;
+}
+
+.mright-20 {
+  margin-right: 20px;
+}
+
+.mright-25 {
+  margin-right: 25px;
+}
+
+.mright-30 {
+  margin-right: 30px;
+}
+
+.mright-35 {
+  margin-right: 35px;
+}
+
+.mright-40 {
+  margin-right: 40px;
+}
+
+.mright-45 {
+  margin-right: 45px;
+}
+
+.mright-50 {
+  margin-right: 50px;
+}
+
+/* [ Margin bottom ] */
+.mbottom-0 {
+  margin-bottom: 0;
+}
+
+.mbottom-1 {
+  margin-bottom: 1px;
+}
+
+.mbottom-2 {
+  margin-bottom: 2px;
+}
+
+.mbottom-3 {
+  margin-bottom: 3px;
+}
+
+.mbottom-4 {
+  margin-bottom: 4px;
+}
+
+.mbottom-5 {
+  margin-bottom: 5px;
+}
+
+.mbottom-6 {
+  margin-bottom: 6px;
+}
+
+.mbottom-7 {
+  margin-bottom: 7px;
+}
+
+.mbottom-8 {
+  margin-bottom: 8px;
+}
+
+.mbottom-9 {
+  margin-bottom: 9px;
+}
+
+.mbottom-10 {
+  margin-bottom: 10px;
+}
+
+.mbottom-15 {
+  margin-bottom: 15px;
+}
+
+.mbottom-20 {
+  margin-bottom: 20px;
+}
+
+.mbottom-25 {
+  margin-bottom: 25px;
+}
+
+.mbottom-30 {
+  margin-bottom: 30px;
+}
+
+.mbottom-35 {
+  margin-bottom: 35px;
+}
+
+.mbottom-40 {
+  margin-bottom: 40px;
+}
+
+.mbottom-45 {
+  margin-bottom: 45px;
+}
+
+.mbottom-50 {
+  margin-bottom: 50px;
+}
+
+/* [ Margin left ] */
+.mleft-0 {
+  margin-left: 0;
+}
+
+.mleft-1 {
+  margin-left: 1px;
+}
+
+.mleft-2 {
+  margin-left: 2px;
+}
+
+.mleft-3 {
+  margin-left: 3px;
+}
+
+.mleft-4 {
+  margin-left: 4px;
+}
+
+.mleft-5 {
+  margin-left: 5px;
+}
+
+.mleft-6 {
+  margin-left: 6px;
+}
+
+.mleft-7 {
+  margin-left: 7px;
+}
+
+.mleft-8 {
+  margin-left: 8px;
+}
+
+.mleft-9 {
+  margin-left: 9px;
+}
+
+.mleft-10 {
+  margin-left: 10px;
+}
+
+.mleft-15 {
+  margin-left: 15px;
+}
+
+.mleft-20 {
+  margin-left: 20px;
+}
+
+.mleft-25 {
+  margin-left: 25px;
+}
+
+.mleft-30 {
+  margin-left: 30px;
+}
+
+.mleft-35 {
+  margin-left: 35px;
+}
+
+.mleft-40 {
+  margin-left: 40px;
+}
+
+.mleft-45 {
+  margin-left: 45px;
+}
+
+.mleft-50 {
+  margin-left: 50px;
+}
+
+/* [ Margin vertical ] */
+.marver-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.marver-1 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.marver-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.marver-3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.marver-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.marver-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.marver-6 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.marver-7 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.marver-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.marver-9 {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.marver-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.marver-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.marver-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.marver-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.marver-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.marver-35 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.marver-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.marver-45 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.marver-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* [ Margin horizontal ] */
+.marhor-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.marhor-1 {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.marhor-2 {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.marhor-3 {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.marhor-4 {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.marhor-5 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.marhor-6 {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.marhor-7 {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.marhor-8 {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.marhor-9 {
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+.marhor-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.marhor-15 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.marhor-20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.marhor-25 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.marhor-30 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.marhor-35 {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.marhor-40 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.marhor-45 {
+  margin-right: 45px;
+  margin-left: 45px;
+}
+
+.marhor-50 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* [ Link Style ] */
+.link-fff, .link-fff:hover, .link-fff:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-333, .link-333:hover, .link-333:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+/* [ Background Colors ] */
+.bg-fff, .bg-white-fff, .bg-white-ffffff, .white-bg, .bg-white, .bg-ffffff {
+  background-color: #fff;
+}
+
+.bg-000, .bg-black-000, .bg-black-000000, .black-bg, .bg-black, .bg-000000 {
+  background-color: #000;
+}
+
+.bg-333, .bg-black-333, .bg-black-333333, .bg-333333 {
+  background-color: #333;
+}
+
+.bg-aaa, .bg-aaaaaa, .bg-gray-aaa, .bg-grey-aaa {
+  background-color: #aaa;
+}
+
+.bg-bbb, .bg-bbbbbb, .bg-gray-bbb, .bg-grey-bbb {
+  background-color: #bbb;
+}
+
+.bg-ccc, .bg-cccccc, .bg-gray-ccc, .bg-grey-ccc {
+  background-color: #ccc;
+}
+
+.bg-ddd, .bg-dddddd, .bg-gray-ddd, .bg-grey-ddd {
+  background-color: #ddd;
+}
+
+.bg-eee, .bg-eeeeee, .bg-gray-eee, .bg-grey-eee {
+  background-color: #eee;
+}
+
+.bg-ededed, .bg-gray-ededed, .bg-grey-ededed {
+  background-color: #ededed;
+}
+
+.bg-f5f5f5, .bg-gray-f5f5f5, .bg-grey-f5f5f5 {
+  background-color: #f5f5f5;
+}
+
+/* [ Background Colors - Social ] */
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.bg-twitter {
+  background-color: #55acee;
+}
+
+.bg-instagram {
+  background-color: #3f729b;
+}
+
+.bg-google-plus {
+  background-color: #dc4e41;
+}
+
+.bg-wordpress {
+  background-color: #464646;
+}
+
+.bg-tripadvisor {
+  background-color: #589442;
+}
+
+.bg-whatsapp {
+  background-color: #25d366;
+}
+
+/* [ Colors ] */
+.color-fff, .color-white-fff, .color-white-ffffff, .white-color, .color-white, .color-ffffff {
+  color: #fff;
+}
+
+.color-000, .color-black-000, .color-black-000000, .black-color, .color-black, .color-000000 {
+  color: #000;
+}
+
+.color-333, .color-black-333, .color-black-333333, .color-333333 {
+  color: #333;
+}
+
+.color-888, .color-black-888, .color-black-888888, .color-888888 {
+  color: #888;
+}
+
+.color-aaa, .color-aaaaaa, .color-gray-aaa, .color-grey-aaa {
+  color: #aaa;
+}
+
+.color-bbb, .color-bbbbbb, .color-gray-bbb, .color-grey-bbb {
+  color: #bbb;
+}
+
+.color-ccc, .color-cccccc, .color-gray-ccc, .color-grey-ccc {
+  color: #ccc;
+}
+
+.color-ddd, .color-dddddd, .color-gray-ddd, .color-grey-ddd {
+  color: #ddd;
+}
+
+.color-eee, .color-eeeeee, .color-gray-eee, .color-grey-eee {
+  color: #eee;
+}
+
+.color-ededed, .color-gray-ededed, .color-grey-ededed {
+  color: #ededed;
+}
+
+.color-f5f5f5, .color-gray-f5f5f5, .color-grey-f5f5f5 {
+  color: #f5f5f5;
+}
+
+/* [ Colors - Social ] */
+.color-facebook {
+  color: #3b5998;
+}
+
+.color-twitter {
+  color: #55acee;
+}
+
+.color-instagram {
+  color: #3f729b;
+}
+
+.color-google-plus {
+  color: #dc4e41;
+}
+
+.color-wordpress {
+  color: #464646;
+}
+
+.color-tripadvisor {
+  color: #589442;
+}
+
+.color-whatsapp {
+  color: #25d366;
+}
+
+/* [ Text Shadow ] */
+.text-shadow {
+  -webkit-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.strong-text-shadow {
+  -webkit-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.36), 0 1px 2px rgba(0, 0, 0, 0.48);
+  -moz-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.36), 0 1px 2px rgba(0, 0, 0, 0.48);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.36), 0 1px 2px rgba(0, 0, 0, 0.48);
+}
+
+/* [ Box Shadow ] */
+.box-shadow {
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.box-shadow:hover {
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.box-shadow-2 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.box-shadow-2:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* [ Border Radius ] */
+.border-radius-0 {
+  border-radius: 0;
+}
+
+.border-radius-1 {
+  border-radius: 1px;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+
+.border-radius-3 {
+  border-radius: 3px;
+}
+
+.border-radius-4 {
+  border-radius: 4px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.border-radius-30 {
+  border-radius: 30px;
+}
+
+.border-radius-50per {
+  border-radius: 50%;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+@media all and (max-width: 768px) {
+  .font-0-4em-xs {
+    font-size: 0.4em;
+  }
+
+  .font-0-5em-xs {
+    font-size: 0.5em;
+  }
+
+  .font-0-6em-xs {
+    font-size: 0.6em;
+  }
+
+  .font-0-7em-xs {
+    font-size: 0.7em;
+  }
+
+  .font-0-8em-xs {
+    font-size: 0.8em;
+  }
+
+  .font-0-9em-xs {
+    font-size: 0.9em;
+  }
+
+  .font-1em-xs {
+    font-size: 1.0em;
+  }
+
+  .font-1-1em-xs {
+    font-size: 1.1em;
+  }
+
+  .font-1-2em-xs {
+    font-size: 1.2em;
+  }
+
+  .font-1-3em-xs {
+    font-size: 1.3em;
+  }
+
+  .font-1-4em-xs {
+    font-size: 1.4em;
+  }
+
+  .font-1-5em-xs {
+    font-size: 1.5em;
+  }
+
+  .font-1-6em-xs {
+    font-size: 1.6em;
+  }
+
+  .font-1-7em-xs {
+    font-size: 1.7em;
+  }
+
+  .font-1-8em-xs {
+    font-size: 1.8em;
+  }
+
+  .font-1-9em-xs {
+    font-size: 1.9em;
+  }
+
+  .font-2em-xs {
+    font-size: 2.0em;
+  }
+
+  .padver-0-xs {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .padhor-0-xs {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .padding-0-xs {
+    padding: 0;
+  }
+
+  .ptop-30-xs {
+    padding-top: 30px;
+  }
+
+  .pbottom-30-xs {
+    padding-bottom: 30px;
+  }
+
+  .mtop-30-xs {
+    margin-top: 30px;
+  }
+
+  .mbottom-30-xs {
+    margin-bottom: 30px;
+  }
+
+  .mtop-15-xs {
+    margin-top: 15px;
+  }
+
+  .mbottom-15-xs {
+    margin-bottom: 15px;
+  }
+
+  .padver-30-xs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .marver-30-xs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=theme-style.css.map */

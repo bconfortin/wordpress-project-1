@@ -1,0 +1,818 @@
+// Font Family
+$font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+// Colors
+// Bella Italia
+$primary-color: #063;
+$secondary-color: #f44336;
+$tertiary-color: #d0964e;
+//$secondary-color: #986627;
+$off-white: #f5f5f5;
+$white: #fff;
+$black: #333;
+$dark-grey: #666;
+$dark-gray: #666;
+
+@import 'buttons';
+
+body {
+	background-color: $off-white;
+	font-family: $font-family;
+}
+
+.bleft-3-green {
+	border-left: 3px solid green;
+}
+
+.language-flag {
+	padding-right: 15px;
+	color: #666;
+}
+
+.language-flag:hover {
+	text-decoration: none;
+	color: #777;
+}
+
+.language-flag img {
+	max-height: 17px;
+}
+
+.header-nav {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.header-nav>li {
+	display: inline-block;
+}
+
+.header-nav>li>a, .header-nav>li>div.dropdown>a {
+	display: inline-block;
+	color: #666;
+	text-transform: uppercase;
+	padding: 31px 10px;
+    font-size: 0.9em;
+}
+
+.header-nav>li>a:hover, .header-nav>li>div.dropdown:hover, .header-nav>li>div.dropdown:hover>a {
+	text-decoration: none;
+	background-color: $primary-color;
+    color: #fff;
+}
+
+.header-nav>li>a:focus, .header-nav>li>div.dropdown:focus, .header-nav>li>div.dropdown:focus>a {
+	text-decoration: none;
+	background-color: #f5f5f5;
+}
+
+.mtop-13 {
+	margin-top: 13px;
+}
+
+.relative {
+	position: relative;
+}
+
+.reservar-banner-home {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	background-color: #333;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+.input-calendar {
+    background-image: url('../img/icones/calendario.png');
+    background-repeat: no-repeat;
+    background-position: 7px 50%;
+    padding-left: 31px;
+}
+
+.bbottom-5-green {
+	border-bottom: 5px solid $primary-color;
+}
+
+.banner-restaurante-footer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: $primary-color;
+	background-color: rgba(0,101,51,0.7);
+	width: 320px;
+	height: 100%;
+	padding: 30px;
+	color: #fff;
+}
+
+
+.banner-restaurante-footer-img {
+    height: 375px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/gastronomia/bella-tavola-7-1000x375.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-primario {
+	background-color: $primary-color;
+}
+
+.bg-gray-666, .bg-grey-666, .bg-666 {
+    background-color: #666;
+}
+
+.bg-gray-555, .bg-grey-555, .bg-555 {
+    background-color: #555;
+}
+
+.bg-gray-444, .bg-grey-444, .bg-444 {
+    background-color: #444;
+}
+
+.bg-gray-333, .bg-grey-333, .bg-333 {
+    background-color: #333;
+}
+
+.vertical-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.vertical-list>li {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.vertical-list>li:last-child {
+	margin-bottom: 0;
+}
+
+.vertical-list>li>a, .vertical-list>li>a:hover, .vertical-list>li>a:focus {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+}
+
+.footer-icon-width {
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 97%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #f5f5f5;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.175);
+    box-shadow: 0 3px 6px rgba(0,0,0,.175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 12px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: $primary-color;
+    border-left: 5px solid $primary-color;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 0.9em
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: $primary-color;
+    color: #fff;
+    border-left: 5px solid $secondary-color;
+}
+
+.horizontal-footer-list {
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.horizontal-footer-list>li {
+    display: inline-block;
+    color: #f5f5f5;
+}
+
+.horizontal-footer-list>li>a {
+    display: inline-block;
+    color: #f5f5f5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.horizontal-footer-list>li>a:hover, .horizontal-footer-list>li>a:focus {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.relative-top-minus-2 {
+    position: relative;
+    top: -2px;
+}
+.ui-datepicker {
+    padding: 0;
+}
+.ui-datepicker table {
+    margin: 0;
+}
+.ui-widget {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+}
+.ui-widget .ui-widget {
+    font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #d3d3d3;
+}
+.ui-widget-content {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    color: #222222;
+}
+.ui-widget-content a {
+    color: #222222;
+}
+.ui-widget-header {
+    border: 1px solid #006633;
+    background: #006633;
+    color: #fff;
+    font-weight: bold;
+}
+.ui-widget-header a {
+    color: #222222;
+}
+
+.ui-widget-header .ui-icon {
+    background-image: none;
+}
+
+.ui-datepicker-prev span.ui-icon, .ui-datepicker-next span.ui-icon {
+    width: 13px; //this the width of the icon. increase it if your icon is bigger
+    height: 20px;
+    display: block;
+    text-indent: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.ui-datepicker-prev span:before {
+    content: "\f137";
+    font-family: FontAwesome;
+    position: relative;
+    color: #fff;
+}
+
+.ui-datepicker-next span:before {
+    content: "\f138";
+    font-family: FontAwesome;
+    position: relative;
+    color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #ddd;
+    background: #eee;
+    font-weight: normal;
+    color: #555555;
+}
+
+.ui-datepicker .ui-datepicker-next:hover, .ui-datepicker .ui-datepicker-prev:hover {
+    background-color: $primary-color;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+    border: 1px solid $primary-color;
+    background: $primary-color;
+    font-weight: normal;
+    color: #fff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid $primary-color;
+    background: $primary-color;
+    font-weight: normal;
+    color: #fff;
+}
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+    border-top-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+
+
+
+
+
+.navigation-desktop {
+    width: 100%;
+}
+
+.navigation-desktop ul.unstyled-list {
+    margin-bottom: 0;
+}
+
+.navigation-desktop ul.unstyled-list>li {
+    display: inline-block;
+}
+
+.navigation-desktop ul.unstyled-list>li>a {
+    display: block;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+}
+
+.navigation-desktop ul.unstyled-list>li>a:hover {
+    color: #ffb200;
+    text-decoration: none;
+}
+
+.navigation-desktop ul.unstyled-list>li.dropdown-master:hover>a {
+    background-color: #ffb200;
+    color: #fff;
+}
+
+.desktop-banner {
+    position: relative;
+}
+
+.absolute-desktop-banner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation-mobile {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.navigation-mobile .fa-bars {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.navigation-mobile-overlay {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.navigation-mobile-overlay.hidden {
+    background-color: transparent;
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.navigation-drawer {
+    background-color: #fff;
+    border-left: 5px solid $primary-color;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    overflow-y: auto;
+    width: 290px;
+    padding: 15px;
+    height: 100%;
+    z-index: 5;
+}
+
+.navigation-drawer .fa-times {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.pulled-drawer {
+    right: 0px !important;
+}
+
+.unstyled-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navigation-drawer .unstyled-list>li>a {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-left: 3px solid #063;
+}
+
+.navigation-drawer .unstyled-list>li>a:hover, .navigation-drawer .unstyled-list>li>a:focus {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    border-left: 3px solid $secondary-color;
+}
+
+.navigation-drawer img {
+    margin-top: 13px;
+}
+
+.max-height-20 {
+    max-height: 20px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.width-100per {
+    width: 100%;
+}
+
+.navigation-drawer-submenu {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.navigation-drawer-submenu>li>a {
+    color: #666;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+}
+
+.navigation-drawer-submenu>li>a:focus, .navigation-drawer-submenu>li>a:active, .navigation-drawer-submenu>li>a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+.color-063 {
+    color: #063;
+}
+
+.color-666 {
+    color: #666;
+}
+
+.color-red {
+    color: #f44336;
+}
+
+.color-green {
+    color: #84c225;
+}
+
+.color-primary, .primary-color, .cor-primaria {
+    color: $primary-color;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.bbottom-5-primary {
+    border-bottom: 5px solid $primary-color;
+}
+
+ul.breadcrumbs {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.breadcrumbs>li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: $tertiary-color;
+}
+
+ul.breadcrumbs>li:after {
+    content: "\f105";
+    font-family: "FontAwesome";
+    padding-left: 7px;
+    padding-right: 3px;
+}
+
+ul.breadcrumbs>li:last-child:after {
+    content: none;
+}
+
+ul.breadcrumbs>li>a {
+    color: #aaa;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3)
+}
+
+.carousel-indicators .active {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 8px;
+    margin: 0;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+}
+
+.carousel-indicators .active {
+    margin: 0;
+    width: 30px;
+    height: 8px;
+    background-color: #ffffff;
+}
+
+.bbottom-2-tertiary {
+    border-bottom: 2px solid $tertiary-color;
+}
+
+.bbottom-3-tertiary {
+    border-bottom: 3px solid $tertiary-color;
+}
+
+.section-single-body>h1,
+.section-single-body>h2,
+.section-single-body>h3,
+.section-single-body>h4,
+.section-single-body>h5,
+.section-single-body>h6 {
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.section-single-body>h1 {
+	font-size: 1.8em;
+	font-weight: 700;
+}
+
+.section-single-body>h2 {
+	font-size: 1.6em;
+}
+
+.section-single-body>h3 {
+	font-size: 1.5em;
+}
+
+.section-single-body>h4 {
+	font-size: 1.4em;
+}
+
+.section-single-body>h5 {
+	font-size: 1.3em;
+}
+
+.section-single-body>h6 {
+	font-size: 1.2em;
+}
+
+.section-single-body>h1.title {
+	font-size: 1.8em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-single-body>p {
+	font-size: 1.1em;
+	font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.section-single-body>blockquote>p {
+	font-size: 1em;
+	font-weight: 400;
+	color: #666;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.section-single-body>p>strong {
+	font-weight: 700;
+}
+
+.section-single-body>p:last-child {
+    margin-bottom: 0;
+}
+
+.section-single-body>ul, .section-single-body>ol {
+	padding-left: 30px;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.section-single-body>ul>li, .section-single-body>ol>li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.section-single-body>ul {
+	list-style-type: none;
+}
+
+.section-single-body>ul>li::before {
+	font-family: 'FontAwesome';
+    content: '\f00c';
+    color: #007a9c;
+	position: absolute;
+    left: 55px;
+	// left: 7%;
+}
+
+.section-single-body>p>a, .section-single-body>blockquote>p>a, .section-single-body>a {
+	color: $primary-color;
+	font-weight: 700;
+}
+
+.section-single-body:last-child p:last-child {
+    margin-bottom: 0;
+}
+
+.section-single-body:last-child ul:last-child {
+    margin-bottom: 0;
+}
+
+.menu-menu-1-container {
+	display: inline-block;
+}
+
+.menu {
+	display: block;
+	padding-left: 0;
+	margin: 0;
+}
+
+.menu>li, .menu>li>a {
+	display: inline-block;
+}
+
+.menu>li>a {
+	padding: 15px;
+}
+
+.no-horizontal-resize {
+    resize: vertical;
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-facebook    { background-color: #3b5998; }
+.bg-twitter     { background-color: #55acee; }
+.bg-instagram   { background-color: #3f729b; }
+.bg-google-plus { background-color: #dc4e41; }
+.bg-wordpress   { background-color: #464646; }
+.bg-tripadvisor { background-color: #589442; }
+
+.color-facebook    { color: #3b5998; }
+.color-twitter     { color: #55acee; }
+.color-instagram   { color: #3f729b; }
+.color-google-plus { color: #dc4e41; }
+.color-wordpress   { color: #464646; }
+.color-tripadvisor { color: #589442; }
+
+@media all and (max-width: 1200px) {
+
+}
+
+@media all and (max-width: 993px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@import 'essential';
