@@ -760,21 +760,21 @@ ul.breadcrumbs>li>a {
     margin-bottom: 0;
 }
 
-.menu-menu-1-container {
+.menu-nav-bar-header-container {
 	display: inline-block;
 }
 
-.menu {
+#menu-nav-bar-header {
 	display: block;
 	padding-left: 0;
 	margin: 0;
 }
 
-.menu>li, .menu>li>a {
+#menu-nav-bar-header>li, #menu-nav-bar-header>li>a {
 	display: inline-block;
 }
 
-.menu>li>a {
+#menu-nav-bar-header>li>a {
 	padding: 15px;
 }
 
@@ -802,6 +802,30 @@ ul.breadcrumbs>li>a {
 .color-google-plus { color: #dc4e41; }
 .color-wordpress   { color: #464646; }
 .color-tripadvisor { color: #589442; }
+
+.page_obras .body .title {
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #666;
+	height: 50px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.page_obras .body {
+	height: 190px;
+	padding: 15px;
+}
+
+.page_obras .body p {
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.page_obras .body p>strong {
+	font-weight: 700;
+}
 
 @media all and (max-width: 1200px) {
 

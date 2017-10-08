@@ -1,7 +1,7 @@
 <?php
 	add_theme_support('post-thumbnails');
 
-	function cadastrar_post_type_obra() {
+	function register_post_type_obra() {
 		$nameSingular = 'Obra';
 		$namePlural = 'Obras';
 		$description = 'Cadastro de obras da Plano';
@@ -28,10 +28,9 @@
 		);
 
 		register_post_type('obra', $args);
-		flush_rewrite_rules();
 	}
 
-	add_action('init', 'cadastrar_post_type_obra');
+	add_action('init', 'register_post_type_obra');
 
 	function registrar_menu_navegacao() {
 		register_nav_menu('header-menu', 'main-menu');
@@ -48,7 +47,7 @@
 	}
 
 	function custom_excerpt_length( $length ) {
-		return 30;
+		return 15;
 	}
 	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -66,13 +65,39 @@
 	}
 	add_action( 'widgets_init', 'new_widgets_init' );
 
+	function register_taxonomy_tipos_de_obras() {
+		$singular = 'Tipo de obra';
+		$plural = 'Tipos de obras';
+
+		$labels = array(
+			'name' => $plural,
+			'singular_name' => $singular,
+			'view_item' => 'Ver ' . strtolower($singular),
+			'edit_item' => 'Editar ' . strtolower($singular),
+			'new_item' => 'Novo ' . strtolower($singular),
+			'add_new_item' => 'Adicionar novo ' . strtolower($singular)
+		);
+
+		$args = array(
+			'labels' => $labels,
+			'public' => true,
+			'hierarchical' => true
+		);
+
+		register_taxonomy('tipo_de_obra', 'obra', $args);
+	}
+
+	add_action( 'init' , 'register_taxonomy_tipos_de_obras' );
+
+	function is_selected_taxonomy($taxonomy, $search) {
+		if($taxonomy->slug === $search) {
+			echo 'selected';
+		}
+	}
 
 
 
-
-
-
-
+	/*
 	function adicionar_meta_info_imovel() {
 		add_meta_box(
 			'informacoes_imovel',
@@ -184,4 +209,8 @@
 	}
 
 	add_action('save_post', 'salvar_meta_info_imoveis');
+	*/
+
+
+	//flush_rewrite_rules();
 ?>
