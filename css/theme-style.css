@@ -1442,6 +1442,40 @@ fieldset[disabled] .btn-red.ghost.transparent.active {
   border-radius: 0;
 }
 
+.menu-menu-dos-links-container {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.menu-menu-dos-links-container > ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.menu-menu-dos-links-container > ul > li {
+  display: inline-block;
+  padding: 19px 10px;
+}
+
+.menu-menu-dos-links-container > ul > li > a {
+  color: #2E4351;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.menu-menu-dos-links-container > ul > li > a:focus, .menu-menu-dos-links-container > ul > li > a:hover {
+  color: #2E4351;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.header-logo {
+  height: 30px;
+  margin: 15px 0;
+}
+
 body {
   background-color: #f5f5f5;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -1485,7 +1519,7 @@ body {
 
 .header-nav > li > a:hover, .header-nav > li > div.dropdown:hover, .header-nav > li > div.dropdown:hover > a {
   text-decoration: none;
-  background-color: #063;
+  background-color: #2E4351;
   color: #fff;
 }
 
@@ -1525,14 +1559,14 @@ body {
 }
 
 .bbottom-5-green {
-  border-bottom: 5px solid #063;
+  border-bottom: 5px solid #2E4351;
 }
 
 .banner-restaurante-footer {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #063;
+  background-color: #2E4351;
   background-color: rgba(0, 101, 51, 0.7);
   width: 320px;
   height: 100%;
@@ -1550,7 +1584,7 @@ body {
 }
 
 .bg-primario {
-  background-color: #063;
+  background-color: #2E4351;
 }
 
 .bg-gray-666, .bg-grey-666, .bg-666 {
@@ -1624,15 +1658,15 @@ body {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #063;
-  border-left: 5px solid #063;
+  color: #2E4351;
+  border-left: 5px solid #2E4351;
   white-space: nowrap;
   text-transform: uppercase;
   font-size: 0.9em;
 }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-  background-color: #063;
+  background-color: #2E4351;
   color: #fff;
   border-left: 5px solid #f44336;
 }
@@ -1763,7 +1797,7 @@ body {
 }
 
 .ui-datepicker .ui-datepicker-next:hover, .ui-datepicker .ui-datepicker-prev:hover {
-  background-color: #063;
+  background-color: #2E4351;
 }
 
 .ui-state-hover,
@@ -1774,15 +1808,15 @@ body {
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
-  border: 1px solid #063;
-  background: #063;
+  border: 1px solid #2E4351;
+  background: #2E4351;
   font-weight: normal;
   color: #fff;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-  border: 1px solid #063;
-  background: #063;
+  border: 1px solid #2E4351;
+  background: #2E4351;
   font-weight: normal;
   color: #fff;
 }
@@ -1896,7 +1930,7 @@ body {
 
 .navigation-drawer {
   background-color: #fff;
-  border-left: 5px solid #063;
+  border-left: 5px solid #2E4351;
   position: fixed;
   top: 0;
   right: -290px;
@@ -1996,7 +2030,7 @@ body {
 }
 
 .color-primary, .primary-color, .cor-primaria {
-  color: #063;
+  color: #2E4351;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -2004,7 +2038,7 @@ body {
 }
 
 .bbottom-5-primary {
-  border-bottom: 5px solid #063;
+  border-bottom: 5px solid #2E4351;
 }
 
 ul.breadcrumbs {
@@ -2183,7 +2217,7 @@ ul.breadcrumbs > li > a {
 }
 
 .section-single-body > p > a, .section-single-body > blockquote > p > a, .section-single-body > a {
-  color: #063;
+  color: #2E4351;
   font-weight: 700;
 }
 

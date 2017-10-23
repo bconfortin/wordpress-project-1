@@ -3,7 +3,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 padding-0">
-			<img src="http://placehold.it/1920x350" alt="" class="img-responsive mbottom-30">
+			<img src="http://placehold.it/1920x900" alt="" class="img-responsive mbottom-30">
 		</div>
 	</div>
 </div>

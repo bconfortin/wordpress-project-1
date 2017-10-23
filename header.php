@@ -21,11 +21,23 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <?php
-            $args = array(
-                'theme_location' => 'header-menu'
-            );
-            wp_nav_menu( $args );
-        ?>
+        <div class="container-fluid bg-fff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-4">
+                        <a href="#"><img src="<?= $home; ?>/img/plano-cinza-2.png" alt="" class="img-responsive header-logo"></a>
+                    </div>
+                    <div class="col-xs-9 col-sm-8">
+                        <?php
+                            $args = array(
+                                'theme_location' => 'header-menu'
+                            );
+                            wp_nav_menu( $args );
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <?php //get_search_form(); ?>
