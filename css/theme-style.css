@@ -2330,6 +2330,76 @@ ul.breadcrumbs > li > a {
   font-weight: 700;
 }
 
+.special-square {
+  position: relative;
+  width: 100%;
+  background-color: #2E4351;
+  display: block;
+}
+
+.special-square:hover {
+  background-color: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("http://placehold.it/768x768");
+}
+
+.special-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.special-square .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.special-square .inner-content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 2.3em;
+  line-height: 1em;
+}
+
+.index-obra-title {
+  padding: 15px;
+  background-color: #2E4351;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+.index-obra-body {
+  padding: 15px;
+  background-color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.index-obra-body > .text {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.index-obra-body > .button {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 768px) {
+  .special-square .inner-content {
+    font-size: 2em;
+  }
+}
 /* [ Tipografia ] */
 /* [ Tamanho ] */
 .font-0-4em {

@@ -14,7 +14,9 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 padding-0">
-			<img src="http://placehold.it/1920x350" alt="" class="img-responsive">
+			<?php if (has_post_thumbnail()) { ?>
+				<?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?>
+			<?php } ?>
 		</div>
 	</div>
 </div>
@@ -64,7 +66,7 @@
 						<div class="col-xs-12 col-sm-4">
 							<div class="bg-fff">
 								<?php if (has_post_thumbnail()) { ?>
-									<a href="<?= the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+									<a href="<?= the_permalink(); ?>"><?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?></a>
 								<?php } else { ?>
 									<a href="<?= the_permalink(); ?>"><img src="http://placehold.it/768x450" alt="<?php the_title(); ?>" class="img-responsive center-block"></a>
 								<?php } ?>
