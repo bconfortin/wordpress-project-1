@@ -63,7 +63,7 @@
 					<div class="row page_obras">
 					<?php while( $loop->have_posts() ) {
 						$loop->the_post(); ?>
-						<div class="col-xs-12 col-sm-4">
+						<div class="col-xs-12 col-sm-4 mbottom-30">
 							<div class="bg-fff">
 								<?php if (has_post_thumbnail()) { ?>
 									<a href="<?= the_permalink(); ?>"><?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?></a>

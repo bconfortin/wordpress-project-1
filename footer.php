@@ -17,7 +17,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?= $home; ?>/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,700" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> -->
         <?php wp_footer(); ?>
     </body>
 </html>

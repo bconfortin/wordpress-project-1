@@ -1,5 +1,5 @@
 // Font Family
-$font-family: "Roboto", Helvetica, Arial, sans-serif;
+$font-family: "Exo 2", Helvetica, Arial, sans-serif;
 
 // Colors
 // #2E4351
@@ -15,40 +15,6 @@ $dark-grey: #666;
 $dark-gray: #666;
 
 @import 'buttons';
-
-.menu-menu-dos-links-container {
-	background-color: $white;
-	margin-bottom: 0;
-}
-
-.menu-menu-dos-links-container>ul {
-	padding-left: 0;
-	margin-bottom: 0;
-	text-align: right;
-}
-
-.menu-menu-dos-links-container>ul>li {
-	display: inline-block;
-	padding: 19px 10px;
-}
-
-.menu-menu-dos-links-container>ul>li>a {
-	color: $primary-color;
-	text-transform: uppercase;
-	font-size: 1.1em;
-	font-weight: 700;
-}
-
-.menu-menu-dos-links-container>ul>li>a:focus, .menu-menu-dos-links-container>ul>li>a:hover {
-	color: $primary-color;
-	opacity: 0.8;
-	text-decoration: none;
-}
-
-.header-logo {
-	height: 30px;
-	margin: 15px 0;
-}
 
 body {
 	background-color: $off-white;
@@ -862,11 +828,51 @@ ul.breadcrumbs>li>a {
 	font-weight: 700;
 }
 
+.menu-menu-dos-links-container {
+	background-color: $white;
+	margin-bottom: 0;
+}
+
+.menu-menu-dos-links-container>ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.menu-menu-dos-links-container>ul>li {
+	display: inline-block;
+	padding: 19px 10px;
+}
+
+.menu-menu-dos-links-container>ul>li>a {
+	color: $primary-color;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+.menu-menu-dos-links-container>ul>li>a:focus, .menu-menu-dos-links-container>ul>li>a:hover {
+	color: $primary-color;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.header-logo {
+	height: 30px;
+	margin: 15px 0;
+}
+
 .special-square {
 	position: relative;
 	width: 100%;
 	background-color: $primary-color;
 	display: block;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+	background-image: url('../img/petroleum-placeholder.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .special-square:hover {
@@ -874,7 +880,25 @@ ul.breadcrumbs>li>a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("http://placehold.it/768x768");
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+}
+
+.special-square.bg-contato:hover {
+	background-image: url("../img/pexels-editadas/person-woman-hand-smartphone-768x768.jpg");
+}
+
+.special-square.bg-prazos:hover {
+	background-image: url("../img/pexels-editadas/hourglass-time-hours-sand-39396-768x768.jpg");
+}
+
+.special-square.bg-valores:hover {
+	background-image: url("../img/pexels-editadas/workers-construction-site-hardhats-38293-768x768.jpg");
+}
+
+.special-square.bg-diferenciais:hover {
+	background-image: url("../img/pexels-editadas/pexels-photo-38070-768x768.jpg");
 }
 
 .special-square:after {
@@ -907,6 +931,7 @@ ul.breadcrumbs>li>a {
 	font-weight: 700;
 	font-size: 1.6em;
 	text-align: center;
+	margin-top: 0;
 }
 
 .index-obra-title-2 {

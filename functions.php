@@ -1,6 +1,66 @@
 <?php
+	/** THEME SUPPORT
+	  * Adiciona suporte à funcionalidades específicas.
+	  * Atuais: post-thumbnails
+	  **/
 	add_theme_support('post-thumbnails');
 
+	/** NAV MENU
+	  * Adiciona menus de navegação.
+	  * Atuais: header-menu
+	  **/
+	function registrar_menu_navegacao() {
+		register_nav_menu('header-menu', 'main-menu');
+	}
+
+	add_action('init', 'registrar_menu_navegacao');
+
+	/** GENERATE TITLE
+	  * Gera um título para páginas específicas.
+	  **/
+	function generateTitle() {
+		if (!is_home()) {
+			the_title();
+			echo ' - ';
+		};
+		bloginfo('name');
+	}
+
+	/** FILTRO DO RESUMO
+	  * Faz com que o resumo de posts tenha apenas 15 palavras.
+	  **/
+	function custom_excerpt_length( $length ) {
+		return 15;
+	}
+	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+	/** WIDGETS
+	  * Personaliza a estrutura principal dos widgets.
+	  **/
+	function new_widgets_init() {
+		register_sidebar(
+			array(
+				'name'          => 'Widgets da direita',
+				'id'            => 'widgets_direita',
+				'before_widget' => '<div class="padding-15 mbottom-30 bg-fff">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<h3 class="text-center margin-0 pbottom-15 mbottom-15 bbottom-1-secundario font-1-1em text-uppercase">',
+				'after_title'   => '</h3>',
+			)
+		);
+	}
+	add_action( 'widgets_init', 'new_widgets_init' );
+
+	/** ########################################################################
+	  * ########################################################################
+	  * ########################################################################
+	  * ########################################################################
+	  * ######################################################################## **/
+
+	/** POST TYPES
+	  * Registro de todos os post types e seus inits.
+	  * Atuais: obra, cliente
+	  **/
 	function register_post_type_obra() {
 		$nameSingular = 'Obra';
 		$namePlural = 'Obras';
@@ -32,39 +92,41 @@
 
 	add_action('init', 'register_post_type_obra');
 
-	function registrar_menu_navegacao() {
-		register_nav_menu('header-menu', 'main-menu');
-	}
+	function register_post_type_cliente() {
+		$nameSingular = 'Cliente';
+		$namePlural = 'Clientes';
+		$description = 'Cadastro de clientes da Plano';
 
-	add_action('init', 'registrar_menu_navegacao');
-
-	function generateTitle() {
-		if (!is_home()) {
-			the_title();
-			echo ' - ';
-		};
-		bloginfo('name');
-	}
-
-	function custom_excerpt_length( $length ) {
-		return 15;
-	}
-	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
-	function new_widgets_init() {
-		register_sidebar(
-			array(
-				'name'          => 'Widgets da direita',
-				'id'            => 'widgets_direita',
-				'before_widget' => '<div class="padding-15 mbottom-30 bg-fff">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h3 class="text-center margin-0 pbottom-15 mbottom-15 bbottom-1-secundario font-1-1em text-uppercase">',
-				'after_title'   => '</h3>',
-			)
+		$labels = array(
+			'name' => $namePlural,
+			'singular_name' => $nameSingular,
+			'add_new_item' => 'Adicionar novo ' . strtolower($nameSingular),
+			'edit_item' => 'Editar ' . strtolower($nameSingular)
 		);
-	}
-	add_action( 'widgets_init', 'new_widgets_init' );
 
+		$supports = array(
+			'title',
+			'editor',
+			'thumbnail'
+		);
+
+		$args = array(
+			'labels' => $labels,
+			'public' => true,
+			'description' => $description,
+			'menu_icon' => 'dashicons-groups',
+			'supports' => $supports
+		);
+
+		register_post_type('cliente', $args);
+	}
+
+	add_action('init', 'register_post_type_cliente');
+
+	/** TAXONOMY
+	  * Registro de todas as taxonomias e seus inits.
+	  * Atuais: tipo_de_obra, localizacao
+	  **/
 	function register_taxonomy_tipos_de_obras() {
 		$singular = 'Tipo de obra';
 		$plural = 'Tipos de obras';
@@ -113,12 +175,19 @@
 
 	add_action( 'init' , 'register_taxonomy_localizacao' );
 
+	/** TAXONOMY FILTER
+	  * Adiciona o filtro/busca por taxonomias.
+	  **/
 	function is_selected_taxonomy($taxonomy, $search) {
 		if($taxonomy->slug === $search) {
 			echo 'selected';
 		}
 	}
 
+	/** META INFO
+	  * Adiciona a meta info (novos campos) dentro de determinados post-types.
+	  * Atuais: informacoes_obra
+	  **/
 	function adicionar_meta_info_obra() {
 		add_meta_box(
 			'informacoes_obra',
@@ -167,14 +236,6 @@
 				<label for="obra_conclusao">Tempo de conclusão:</label>
 				<input type="text" name="obra_conclusao" class="form-control" placeholder="" value="<?= $obras_meta_data['obra_conclusao'][0]; ?>">
 			</div>
-			<!-- <div class="form-group">
-				<label for="obra_img_desktop">Imagem 1920x450:</label>
-				<input type="file" name="obra_img_desktop" class="form-control" accept="image/*" value="<?= $obras_meta_data['obra_img_desktop'][0]; ?>">
-			</div>
-			<div class="form-group">
-				<label for="obra_img_mobile">Imagem 993x600:</label>
-				<input type="file" name="obra_img_mobile" class="form-control" accept="image/*" value="<?= $obras_meta_data['obra_img_mobile'][0]; ?>">
-			</div> -->
 		</div>
 
 	<?php }
@@ -186,29 +247,77 @@
 		if( isset($_POST['obra_conclusao']) ) {
 			update_post_meta( $post_id, 'obra_conclusao', sanitize_text_field( $_POST['obra_conclusao'] ) );
 		}
-		// if( isset($_POST['obra_img_desktop']) ) {
-		// 	update_post_meta( $post_id, 'obra_img_desktop', $_POST['obra_img_desktop'] );
-		// }
-		// if( isset($_POST['obra_img_mobile']) ) {
-		// 	update_post_meta( $post_id, 'obra_img_mobile', $_POST['obra_img_mobile'] );
-		// }
 	}
 
 	add_action('save_post', 'salvar_meta_info_obras');
 
 
+	/** META INFO
+	  * Adiciona a meta info (novos campos) dentro de determinados post-types.
+	  * Atuais: informacoes_obra
+	  **/
+	function adicionar_meta_info_cliente() {
+		add_meta_box(
+			'informacoes_cliente',
+			'Informações',
+			'informacoes_cliente_view',
+			'cliente',
+			'normal',
+			'high'
+		);
+	}
+
+	add_action('add_meta_boxes', 'adicionar_meta_info_cliente');
+
+	function informacoes_cliente_view( $post ) {
+		$clientes_meta_data = get_post_meta( $post->ID ); ?>
+
+		<style>
+			.metabox-form {
+				margin-top: 15px;
+			}
+
+			.metabox-form .form-group {
+				display: inline-block;
+				width: 49.7%;
+				margin-bottom: 15px;
+			}
+
+			.metabox-form .form-group label {
+				display: block;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+
+			.metabox-form .form-group input {
+				display: block;
+				width: 100%;
+			}
+		</style>
+
+		<div class="metabox-form">
+			<div class="form-group">
+				<label for="cliente_site">Site do cliente:</label>
+				<input type="text" name="cliente_site" class="form-control" placeholder="Ex: https://www.google.com.br/" value="<?= $clientes_meta_data['cliente_site'][0]; ?>">
+			</div>
+		</div>
+
+	<?php }
+
+	function salvar_meta_info_clientes( $post_id ) {
+		if( isset($_POST['cliente_site']) ) {
+			update_post_meta( $post_id, 'cliente_site', $_POST['cliente_site'] );
+		}
+	}
+
+	add_action('save_post', 'salvar_meta_info_clientes');
 
 
 
 
-
-
-
-
-
-
-
-
+	/** IMAGEM ALTERNATIVA
+	  * Adiciona um segundo cadastro de imagem dentro do post..
+	  **/
 	add_action( 'add_meta_boxes', 'listing_image_add_metabox' );
 	function listing_image_add_metabox () {
 		add_meta_box( 'listingimagediv', __( 'Imagem mobile (993x600)', 'text-domain' ), 'listing_image_metabox', 'obra', 'side', 'low');
@@ -251,10 +360,21 @@
 	}
 	add_action( 'admin_enqueue_scripts', 'add_admin_scripts', 10, 1 );
 
-
-	function replace_featured_image_box() {
+	/** FILTRO DA IMAGEM DE DESTAQUE DA OBRA
+	  * Renomeia o título da imagem de destaque (thumbnail) para o post-type obra.
+	  **/
+	function replace_featured_image_box_obra() {
 	    remove_meta_box( 'postimagediv', 'obra', 'side' );
 	    add_meta_box('postimagediv', __('Imagem desktop (1920x450)'), 'post_thumbnail_meta_box', 'obra', 'side', 'low');
 	}
-	add_action('do_meta_boxes', 'replace_featured_image_box');
+	add_action('do_meta_boxes', 'replace_featured_image_box_obra');
+
+	/** FILTRO DA IMAGEM DE DESTAQUE DO CLIENTE
+	  * Renomeia o título da imagem de destaque (thumbnail) para o post-type obra.
+	  **/
+	function replace_featured_image_box_cliente() {
+	    remove_meta_box( 'postimagediv', 'cliente', 'side' );
+	    add_meta_box('postimagediv', __('Imagem quadrada (768x768)'), 'post_thumbnail_meta_box', 'cliente', 'side', 'low');
+	}
+	add_action('do_meta_boxes', 'replace_featured_image_box_cliente');
 ?>
