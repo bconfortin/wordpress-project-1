@@ -2373,8 +2373,34 @@ ul.breadcrumbs > li > a {
   background-color: #2E4351;
   color: #fff;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: center;
+}
+
+.index-obra-title-2 {
+  padding: 15px;
+  border-top: 5px solid #2E4351;
+  color: #2E4351;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  min-height: 77px;
+}
+
+.index-obra-body-2 {
+  padding: 0 15px 15px 15px;
+  background-color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.index-obra-body-2 > p:first-child {
+  margin-bottom: 15px;
+}
+
+.index-obra-body-2 > p:nth-child(2) {
+  margin-bottom: 0;
 }
 
 .index-obra-body {
@@ -2393,6 +2419,10 @@ ul.breadcrumbs > li > a {
 .index-obra-body > .button {
   text-align: right;
   margin-bottom: 0;
+}
+
+object[type^='application/gas-events'] {
+  display: none;
 }
 
 @media all and (max-width: 768px) {

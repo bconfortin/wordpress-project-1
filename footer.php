@@ -1,5 +1,5 @@
         <?php $home = get_template_directory_uri(); ?>
-        <footer class="mtop-30 bg-primario">
+        <footer class="bg-primario">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">

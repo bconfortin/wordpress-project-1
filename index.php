@@ -52,13 +52,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-4">
-				<?php if ( is_active_sidebar( 'widgets_direita' ) ) : ?>
-					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-						<?php dynamic_sidebar( 'widgets_direita' ); ?>
-					</div><!-- #primary-sidebar -->
-				<?php endif; ?>
-			</div>
 		</div>
 	</div>
 </div>
@@ -108,11 +101,20 @@
 					 $obra_meta_data = get_post_meta( $post->ID );
 					 $avatar_id = $obra_meta_data['_listing_image_id'][0];
 					 $metaImagem = wp_get_attachment_image( $avatar_id, 'full', false, array( 'class' => 'img-responsive' ) );
+					 $metaImagem = wp_get_attachment_image_url( $avatar_id, 'full', false );
 					 ?>
-			 		<div class="col-xs-6">
+			 		<div class="col-xs-12 col-sm-4">
 						<div class="card-home bg-fff mbottom-30">
-							<a href="<?php the_permalink(); ?>"><?= $metaImagem; ?></a>
-							<a href="<?php the_permalink(); ?>" class="block index-obra-title"><?php the_title(); ?></a>
+							<?php if ($metaImagem != false && $metaImagem != "") { ?>
+								<a href="<?php the_permalink(); ?>"><img src="<?= $metaImagem; ?>" class="img-responsive"></a>
+							<?php } else { ?>
+								<a href="<?php the_permalink(); ?>"><img src="http://placehold.it/768x500" class="img-responsive"></a>
+							<?php } ?>
+							<a href="<?php the_permalink(); ?>" class="block index-obra-title-2"><?php the_title(); ?></a>
+							<div class="index-obra-body-2">
+								<p><?= get_the_excerpt(); ?></p>
+								<p><a href="<?php the_permalink(); ?>" class="btn btn-primario text-uppercase padhor-30 inline-block">Leia mais</a>
+							</div>
 						</div>
 					</div>
 				<?php }
@@ -147,5 +149,14 @@
 	</div>
 </div>
 
+<?php /*
+<div class="col-xs-12 col-sm-4">
+	<?php if ( is_active_sidebar( 'widgets_direita' ) ) : ?>
+		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+			<?php dynamic_sidebar( 'widgets_direita' ); ?>
+		</div>
+	<?php endif; ?>
+</div>
+*/ ?>
 
 <?php get_footer(); ?>
