@@ -315,6 +315,107 @@
 
 
 
+
+	/** META INFO
+	  * Adiciona a meta info (novos campos) dentro de determinados post-types.
+	  * Atuais: informacoes_obra
+	  **/
+	function adicionar_meta_info_index() {
+		global $post;
+	    if(!empty($post)) {
+	        $pageTemplate = get_post_meta($post->ID, '_wp_page_template', true);
+	        if($pageTemplate == 'page_index.php' ) {
+				add_meta_box(
+					'informacoes_index',
+					'Informações',
+					'informacoes_index_view',
+					'page',
+					'normal',
+					'high'
+				);
+			}
+		}
+	}
+
+	add_action('add_meta_boxes', 'adicionar_meta_info_index');
+
+	function informacoes_index_view( $post ) {
+		$index_meta_data = get_post_meta( $post->ID ); ?>
+
+		<style>
+			.metabox-form {
+				margin-top: 15px;
+			}
+
+			.metabox-form .form-group {
+				display: inline-block;
+				width: 49.7%;
+				margin-bottom: 15px;
+			}
+
+			.metabox-form .form-group label {
+				display: block;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+
+			.metabox-form .form-group input {
+				display: block;
+				width: 100%;
+			}
+		</style>
+
+		<div class="metabox-form">
+			<div class="form-group">
+				<label for="index_shortcode">Shortcode do SmartSlider3:</label>
+				<input type="text" name="index_shortcode" class="form-control" placeholder="Ex: [smartslider3 slider=2]" value="<?= $index_meta_data['index_shortcode'][0]; ?>">
+			</div>
+		</div>
+		<div class="metabox-form">
+			<div class="form-group">
+				<label for="index_box_diferenciais">Link do box "Diferenciais":</label>
+				<input type="text" name="index_box_diferenciais" class="form-control" placeholder="Ex: http://www.plano.com/diferenciais/" value="<?= $index_meta_data['index_box_diferenciais'][0]; ?>">
+			</div>
+			<div class="form-group">
+				<label for="index_box_prazos">Link do box "Prazos":</label>
+				<input type="text" name="index_box_prazos" class="form-control" placeholder="Ex: http://www.plano.com/prazos/" value="<?= $index_meta_data['index_box_prazos'][0]; ?>">
+			</div>
+		</div>
+		<div class="metabox-form">
+			<div class="form-group">
+				<label for="index_box_valores">Link do box "Valores":</label>
+				<input type="text" name="index_box_valores" class="form-control" placeholder="Ex: http://www.plano.com/valores/" value="<?= $index_meta_data['index_box_valores'][0]; ?>">
+			</div>
+			<div class="form-group">
+				<label for="index_box_contato">Link do box "Contato":</label>
+				<input type="text" name="index_box_contato" class="form-control" placeholder="Ex: http://www.plano.com/contato/" value="<?= $index_meta_data['index_box_contato'][0]; ?>">
+			</div>
+		</div>
+
+	<?php }
+
+	function salvar_meta_info_index( $post_id ) {
+		if( isset($_POST['index_shortcode']) ) {
+			update_post_meta( $post_id, 'index_shortcode', $_POST['index_shortcode'] );
+		}
+		if( isset($_POST['index_box_diferenciais']) ) {
+			update_post_meta( $post_id, 'index_box_diferenciais', $_POST['index_box_diferenciais'] );
+		}
+		if( isset($_POST['index_box_prazos']) ) {
+			update_post_meta( $post_id, 'index_box_prazos', $_POST['index_box_prazos'] );
+		}
+		if( isset($_POST['index_box_valores']) ) {
+			update_post_meta( $post_id, 'index_box_valores', $_POST['index_box_valores'] );
+		}
+		if( isset($_POST['index_box_contato']) ) {
+			update_post_meta( $post_id, 'index_box_contato', $_POST['index_box_contato'] );
+		}
+	}
+
+	add_action('save_post', 'salvar_meta_info_index');
+
+
+
 	/** IMAGEM ALTERNATIVA
 	  * Adiciona um segundo cadastro de imagem dentro do post..
 	  **/

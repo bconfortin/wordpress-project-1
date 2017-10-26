@@ -1,22 +1,43 @@
 <?php /* Template Name: Página inicial [index editável] */ ?>
 <?php get_header(); ?>
 
+<?php
+if(have_posts()) {
+	while(have_posts()) {
+		the_post();
+		$index_meta_data = get_post_meta( $post->ID );
+?>
+<?php if ($index_meta_data['index_shortcode'][0] != null && $index_meta_data['index_shortcode'][0] != "") { ?>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 padding-0">
-			<?php echo do_shortcode('[smartslider3 slider=2]'); ?>
-			<?php // echo do_shortcode('[foogallery id="31"]'); ?>
-			<!-- <img src="http://placehold.it/1920x900" alt="" class="img-responsive mbottom-30"> -->
+			<?php
+				$shortcode = $index_meta_data["index_shortcode"][0];
+				echo do_shortcode($shortcode);
+				//echo do_shortcode('[smartslider3 slider=2]');
+				//add_shortcode($shortcode, '__return_false');
+				//echo $shortcode;
+			?>
 		</div>
 	</div>
 </div>
+<?php } else { ?>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 padding-0">
+			<img src="http://placehold.it/1920x900" alt="" class="img-responsive">
+		</div>
+	</div>
+</div>
+<?php } ?>
+
 <div class="container-fluid bg-fff ptop-50 pbottom-20">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-3 mbottom-30">
-						<a href="" class="special-square bg-diferenciais">
+						<a href="<?= $index_meta_data['index_box_diferenciais'][0]; ?>" class="special-square bg-diferenciais">
 							<div class="content">
 								<div class="inner-content">
 									Diferenciais
@@ -25,7 +46,7 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 mbottom-30">
-						<a href="" class="special-square bg-prazos">
+						<a href="<?= $index_meta_data['index_box_prazos'][0]; ?>" class="special-square bg-prazos">
 							<div class="content">
 								<div class="inner-content">
 									Prazos
@@ -34,7 +55,7 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 mbottom-30">
-						<a href="" class="special-square bg-valores">
+						<a href="<?= $index_meta_data['index_box_valores'][0]; ?>" class="special-square bg-valores">
 							<div class="content">
 								<div class="inner-content">
 									Valores
@@ -43,7 +64,7 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 mbottom-30">
-						<a href="" class="special-square bg-contato">
+						<a href="<?= $index_meta_data['index_box_contato'][0]; ?>" class="special-square bg-contato">
 							<div class="content">
 								<div class="inner-content">
 									Contato
@@ -158,16 +179,6 @@ if($loop->have_posts()) { ?>
 			</div>
 		</div>
 	</div>
-<?php } ?>
-
-<?php /*
-<div class="col-xs-12 col-sm-4">
-	<?php if ( is_active_sidebar( 'widgets_direita' ) ) : ?>
-		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-			<?php dynamic_sidebar( 'widgets_direita' ); ?>
-		</div>
-	<?php endif; ?>
-</div>
-*/ ?>
+<?php } } } ?>
 
 <?php get_footer(); ?>
