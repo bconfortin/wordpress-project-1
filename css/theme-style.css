@@ -230,30 +230,30 @@ fieldset[disabled] .btn-green.ghost.transparent.active {
 /* [ Blue Bootstrap Button ] */
 .btn-blue {
   color: #ffffff;
-  background-color: #7bb8c9;
-  border-color: #7bb8c9;
+  background-color: #2E4351;
+  border-color: #2E4351;
   font-weight: 700;
 }
 
 .btn-blue:focus,
 .btn-blue.focus {
   color: #ffffff;
-  background-color: #4a9fb7;
-  border-color: #4a9fb7;
+  background-color: #3C5868;
+  border-color: #3C5868;
 }
 
 .btn-blue:hover {
   color: #ffffff;
-  background-color: #4a9fb7;
-  border-color: #4a9fb7;
+  background-color: #3C5868;
+  border-color: #3C5868;
 }
 
 .btn-blue:active,
 .btn-blue.active,
 .open > .dropdown-toggle.btn-blue {
   color: #ffffff;
-  background-color: #4a9fb7;
-  border-color: #4a9fb7;
+  background-color: #3C5868;
+  border-color: #3C5868;
 }
 
 .btn-blue:active:hover,
@@ -266,8 +266,8 @@ fieldset[disabled] .btn-green.ghost.transparent.active {
 .btn-blue.active.focus,
 .open > .dropdown-toggle.btn-blue.focus {
   color: #ffffff;
-  background-color: #4a9fb7;
-  border-color: #4a9fb7;
+  background-color: #3C5868;
+  border-color: #3C5868;
 }
 
 .btn-blue:active,
@@ -299,36 +299,36 @@ fieldset[disabled] .btn-blue.active {
 }
 
 .btn-blue .badge {
-  color: #7bb8c9;
+  color: #2E4351;
   background-color: #ffffff;
 }
 
 /* [ Blue Ghost Bootstrap Button ] */
 .btn-blue.ghost {
-  color: #7bb8c9;
+  color: #2E4351;
   background-color: #ffffff;
-  border-color: #7bb8c9;
+  border-color: #2E4351;
 }
 
 .btn-blue.ghost:focus,
 .btn-blue.ghost.focus {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: #ffffff;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost:hover {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: #fff;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost:active,
 .btn-blue.ghost.active,
 .open > .dropdown-toggle.btn-blue.ghost {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: #fff;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost:active:hover,
@@ -340,9 +340,9 @@ fieldset[disabled] .btn-blue.active {
 .btn-blue.ghost:active.focus,
 .btn-blue.ghost.active.focus,
 .open > .dropdown-toggle.btn-blue.ghost.focus {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: #fff;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost:active,
@@ -374,36 +374,36 @@ fieldset[disabled] .btn-blue.ghost.active {
 }
 
 .btn-blue.ghost .badge {
-  color: #7bb8c9;
+  color: #2E4351;
   background-color: #ffffff;
 }
 
 /* [ Blue Ghost Transparent Bootstrap Button ] */
 .btn-blue.ghost.transparent {
-  color: #7bb8c9;
+  color: #2E4351;
   background-color: transparent;
-  border-color: #7bb8c9;
+  border-color: #2E4351;
 }
 
 .btn-blue.ghost.transparent:focus,
 .btn-blue.ghost.transparent.focus {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: transparent;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost.transparent:hover {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: transparent;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost.transparent:active,
 .btn-blue.ghost.transparent.active,
 .open > .dropdown-toggle.btn-blue.ghost.transparent {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: transparent;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost.transparent:active:hover,
@@ -415,9 +415,9 @@ fieldset[disabled] .btn-blue.ghost.active {
 .btn-blue.ghost.transparent:active.focus,
 .btn-blue.ghost.transparent.active.focus,
 .open > .dropdown-toggle.btn-blue.ghost.transparent.focus {
-  color: #4a9fb7;
+  color: #3C5868;
   background-color: transparent;
-  border-color: #4a9fb7;
+  border-color: #3C5868;
 }
 
 .btn-blue.ghost.transparent:active,
@@ -449,7 +449,7 @@ fieldset[disabled] .btn-blue.ghost.transparent.active {
 }
 
 .btn-blue.ghost.transparent .badge {
-  color: #7bb8c9;
+  color: #2E4351;
   background-color: transparent;
 }
 
