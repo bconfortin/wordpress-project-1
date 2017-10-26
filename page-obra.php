@@ -3,14 +3,14 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 padding-0">
-			<img src="http://placehold.it/1920x350" alt="" class="img-responsive mbottom-30">
+			<img src="http://placehold.it/1920x350" alt="" class="img-responsive center-block mbottom-30">
 		</div>
 	</div>
 </div>
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-8">
+			<div class="col-xs-12">
 				<?php
 				if(have_posts()) {
 				    while(have_posts()) {
@@ -26,13 +26,6 @@
 				    <?php }
 				}
 				?>
-			</div>
-			<div class="col-xs-12 col-sm-4">
-				<?php if ( is_active_sidebar( 'widgets_direita' ) ) : ?>
-					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-						<?php dynamic_sidebar( 'widgets_direita' ); ?>
-					</div><!-- #primary-sidebar -->
-				<?php endif; ?>
 			</div>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-3">
-                            <img src="<?= $home; ?>/img/plano-branca-2.png" alt="" class="img-responsive padver-10" style="height: 40px;">
+                            <img src="<?= $home; ?>/img/plano-branca-2.png" alt="" class="padver-10" style="height: 40px;">
                         </div>
                         <div class="col-xs-9">
                             <p class="text-right mbottom-0 color-fff padver-10">Avenida Brasil, número 222. Centro. Foz do Iguaçu - PR</p>

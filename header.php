@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-3 col-sm-4">
-                        <a href="#"><img src="<?= $home; ?>/img/plano-cinza-2.png" alt="" class="img-responsive header-logo"></a>
+                        <a href="#"><img src="<?= $home; ?>/img/plano-cinza-2.png" alt="" class="header-logo"></a>
                     </div>
                     <div class="col-xs-9 col-sm-8">
                         <?php

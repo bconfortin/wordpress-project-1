@@ -11,15 +11,15 @@
 ?>
 <?php get_header(); ?>
 
+<?php if (has_post_thumbnail()) { ?>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 padding-0">
-			<?php if (has_post_thumbnail()) { ?>
-				<?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?>
-			<?php } ?>
+			<?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?>
 		</div>
 	</div>
 </div>
+<?php } ?>
 <div class="container-fluid bg-666 padver-15 mbottom-30">
 	<div class="container">
 		<div class="row">
