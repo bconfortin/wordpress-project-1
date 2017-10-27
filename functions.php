@@ -30,7 +30,7 @@
 	  * Faz com que o resumo de posts tenha apenas 15 palavras.
 	  **/
 	function custom_excerpt_length( $length ) {
-		return 15;
+		return 35;
 	}
 	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 

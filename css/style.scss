@@ -933,6 +933,7 @@ ul.breadcrumbs>li>a {
 	font-size: 1.6em;
 	text-align: center;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .index-obra-title-2 {
@@ -969,12 +970,16 @@ ul.breadcrumbs>li>a {
 	line-height: 1.7;
 }
 
-.index-obra-body>.text {
+.index-obra-body .text {
 	color: #666;
 	margin-bottom: 15px;
 }
 
-.index-obra-body>.button {
+.index-obra-body .text.mbottom-0 {
+	margin-bottom: 0;
+}
+
+.index-obra-body .button {
 	text-align: right;
 	margin-bottom: 0;
 }

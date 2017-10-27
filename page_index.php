@@ -97,6 +97,7 @@ if($loop->have_posts()) { ?>
 						<h2 class="index-obra-title"><?php the_title(); ?></h2>
 						<div class="index-obra-body">
 							<p class="text"><?= get_the_excerpt(); ?></p>
+							<p class="text">Data de publicação: <strong><?= the_date(); ?></strong></p>
 							<p class="button"><a href="<?php the_permalink(); ?>" class="btn btn-primario text-uppercase padhor-30 inline-block">Leia mais</a>
 						</div>
 					</div>
