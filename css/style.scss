@@ -829,30 +829,63 @@ ul.breadcrumbs>li>a {
 	font-weight: 700;
 }
 
-.menu-menu-dos-links-container {
+.desktop .menu-menu-dos-links-container {
 	background-color: $white;
 	margin-bottom: 0;
 }
 
-.menu-menu-dos-links-container>ul {
+.desktop .menu-menu-dos-links-container>ul {
 	padding-left: 0;
 	margin-bottom: 0;
 	text-align: right;
 }
 
-.menu-menu-dos-links-container>ul>li {
+.desktop .menu-menu-dos-links-container>ul>li {
 	display: inline-block;
 	padding: 19px 10px;
 }
 
-.menu-menu-dos-links-container>ul>li>a {
+.desktop .menu-menu-dos-links-container>ul>li>a {
 	color: $primary-color;
 	text-transform: uppercase;
 	font-size: 1.1em;
 	font-weight: 700;
 }
 
-.menu-menu-dos-links-container>ul>li>a:focus, .menu-menu-dos-links-container>ul>li>a:hover {
+.desktop .menu-menu-dos-links-container>ul>li>a:focus, .desktop .menu-menu-dos-links-container>ul>li>a:hover {
+	color: $primary-color;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.force-white-link {
+	color: #fff !important;
+}
+
+#hamburger-inner-menu>.menu-menu-dos-links-container {
+	margin-bottom: 0;
+	padding-top: 45px;
+}
+
+#hamburger-inner-menu>.menu-menu-dos-links-container>ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#hamburger-inner-menu>.menu-menu-dos-links-container>ul>li {
+	display: block;
+	padding: 8px 10px;
+}
+
+#hamburger-inner-menu>.menu-menu-dos-links-container>ul>li>a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+#hamburger-inner-menu>.menu-menu-dos-links-container>ul>li>a:focus, #hamburger-inner-menu>.menu-menu-dos-links-container>ul>li>a:hover {
 	color: $primary-color;
 	opacity: 0.8;
 	text-decoration: none;
@@ -1012,12 +1045,51 @@ ul.breadcrumbs>li>a {
 	margin-top: 0;
 }
 
+section img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+#hamburger-menu {
+	position: relative;
+	z-index: 101;
+}
+
+#hamburger-inner-menu {
+	background-color: $primary-color;
+	padding: 30px;
+	width: 320px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	height: 100vh;
+}
+
+#hamburger-inner-menu.hidden-hamburger-menu {
+	right: -320px;
+}
+
+.menu-overlay {
+	width: 100vw;
+	height: 100vh;
+	background-color: #666;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
 object[type^='application/gas-events'] {
 	display: none;
 }
 
 @media all and (max-width: 1200px) {
-
+	.special-square .inner-content {
+		font-size: 1.95em;
+	}
 }
 
 @media all and (max-width: 993px) {
@@ -1042,6 +1114,22 @@ object[type^='application/gas-events'] {
 	.page_valores h6 {
 		margin-top: 30px;
 		font-size: 1.5em;
+	}
+
+	.special-square.bg-contato {
+		background-image: url("../img/pexels-editadas/person-woman-hand-smartphone-768x768.jpg");
+	}
+
+	.special-square.bg-prazos {
+		background-image: url("../img/pexels-editadas/hourglass-time-hours-sand-39396-768x768.jpg");
+	}
+
+	.special-square.bg-valores {
+		background-image: url("../img/pexels-editadas/workers-construction-site-hardhats-38293-768x768.jpg");
+	}
+
+	.special-square.bg-diferenciais {
+		background-image: url("../img/pexels-editadas/pexels-photo-38070-768x768.jpg");
 	}
 }
 

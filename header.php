@@ -23,20 +23,42 @@
     <body>
         <div class="container-fluid bg-fff">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-4">
+                <div class="row desktop">
+                    <div class="col-xs-6 col-sm-4">
                         <a href="#"><img src="<?= $home; ?>/img/plano-cinza-2.png" alt="" class="header-logo"></a>
                     </div>
-                    <div class="col-xs-9 col-sm-8">
+                    <div class="col-xs-6 col-sm-8">
+                        <span class="hidden-xs desktop">
                         <?php
                             $args = array(
                                 'theme_location' => 'header-menu'
                             );
                             wp_nav_menu( $args );
                         ?>
+                        </span>
+                        <span class="visible-xs-block">
+                            <div class="menu-menu-dos-links-container">
+                                <ul>
+                                    <li>
+                                        <a id="hamburger-menu" href="http://localhost:81/plano-arquitetura/"><i class="fa fa-bars fa-lg"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="menu-overlay hidden">
+        </div>
+        <div id="hamburger-inner-menu" class="hidden-hamburger-menu mobile">
+            <?php
+                $args = array(
+                    'theme_location' => 'header-menu'
+                );
+                wp_nav_menu( $args );
+            ?>
         </div>
 
 
