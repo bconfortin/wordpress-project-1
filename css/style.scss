@@ -1131,6 +1131,10 @@ object[type^='application/gas-events'] {
 	.special-square.bg-diferenciais {
 		background-image: url("../img/pexels-editadas/pexels-photo-38070-768x768.jpg");
 	}
+
+	.special-square {
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	}
 }
 
 @import 'essential';
